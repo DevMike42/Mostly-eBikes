@@ -2,15 +2,6 @@ body, html {
   font-family: 'Roboto', sans-serif;
 }
 
-#home-heading {
-  position: relative;
-  min-height: 200px;
-  /* background-attachment: fixed; */
-  /* background-repeat: no-repeat; */
-  text-align: center;
-  color: #fff;
-}
-
 .dark-overlay {
   position: absolute;
   top: 0;
@@ -32,4 +23,24 @@ body, html {
 .carousel-image-2 {
   background: url('../img/img-2.jpg');
   background-size: cover;
+}
+
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  /* background-attachment: fixed; */
+  /* background-repeat: no-repeat; */
+  text-align: center;
+  color: #fff;
+}
+
+#home-info .row {
+  height: 500px;
+}
+
+#home-info #img-sales {
+  background: url('../img/sales.jpg');
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  min-height: 500px;
 }
