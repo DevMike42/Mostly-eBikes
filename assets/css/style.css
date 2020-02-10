@@ -4,12 +4,8 @@ body, html {
 
 #logo {
   font-family: 'Righteous', cursive;
-  font-size: 2rem;
+  font-size: 3rem;
 }
-
-/* h1, h2, h3, h4, h5, p, a, ul, li {
-  color: rgb(231, 228, 215);
-} */
 
 .bg-main {
   background-color: #18B8E8;
@@ -17,6 +13,10 @@ body, html {
 
 .bg-minor {
   background-color: #DDDACE;
+}
+
+.text-minor {
+  color: #085972;
 }
 
 .btn-main {
@@ -38,6 +38,15 @@ ul li {
   background: rgba(0, 0, 0, 0.5);
 }
 
+.medium-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
 .color-overlay {
   position: absolute;
   top: 0;
@@ -49,6 +58,10 @@ ul li {
 
 #showcase {
   height: 100%;
+}
+
+#showcase .carousel-inner h1 {
+  font-family: 'Righteous', cursive;
 }
 
 #showcase-item-1 {
@@ -68,32 +81,56 @@ ul li {
 }
 
 .carousel-item {
-  height: 600px;
+  height: 700px;
 }
 
 
 #home-heading {
   position: relative;
-  min-height: 200px;
+  min-height: 150px;
   background: url('../img/map-bg.jpg');
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   text-align: center;
   color: #fff;
+}
+
+#home-heading .hline {
+  width: 100px;
+  height: 2px;
+  background: #fff;
 }
 
 #home-info .row {
   height: 600px;
 }
 
+/* #home-info {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} */
+
+#home-info p {
+  font-size: 1.7rem;
+}
+
 #home-info #img-sales {
+  position: relative;
   background: url('../img/sales-home.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
 }
 
+#home-info #rentals-left {
+  position: relative;
+  background: url('../img/map-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
 #home-info #img-rentals {
+  position: relative;
   background: url('../img/rentals-home.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -101,6 +138,7 @@ ul li {
 }
 
 #home-info #img-repair {
+  position: relative;
   background: url('../img/repair-home.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -133,17 +171,34 @@ ul li {
   text-shadow: 0 0 3px #000;
 }
 
-#footer-banner {
-  position: relative;
-  min-height: 100px;
-  background: url('../img/map-bg.jpg');
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-  color: #fff;
+#footer-logo-banner  h1 {
   font-family: 'Righteous', cursive;
 }
 
-#footer-banner h1 {
-  font-size: 3rem;
+#footer-logo-banner .hline {
+  width: 200px;
+  height: 2px;
+  background: #6c757d;
 }
+
+#footer-content {
+  position: relative;
+  min-height: 300px;
+  background: url('../img/map-bg.jpg');
+  background-position: top;
+  background-size: contain;
+  text-align: center;
+  color: #fff;
+}
+
+#footer-content  h3 {
+  font-family: 'Righteous', cursive;
+}
+
+#footer-content  a {
+  color: #fff;
+}
+
+/* #footer-banner h1 {
+  font-size: 3rem;
+} */
