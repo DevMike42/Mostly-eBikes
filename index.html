@@ -6,8 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- Font Awesome -->
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/1e50ce9b0f.js" crossorigin="anonymous"></script>
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <!-- Bootstrap CSS -->
@@ -21,7 +20,7 @@
 
 <body>
   <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+  <nav class="navbar navbar-expand-sm navbar-dark bg-main">
     <div class="container">
       <a href="index.html" class="navbar-brand">
         Mostly E-Bikes
@@ -35,13 +34,13 @@
             <a href="index.html" class="nav-link px-4 active">Home</a>
           </li>
           <li class="nav-item">
-            <a href="index.html" class="nav-link px-4">About</a>
+            <a href="#sales" class="nav-link px-4">Sales</a>
           </li>
           <li class="nav-item">
-            <a href="index.html" class="nav-link px-4">E-Bike Basics</a>
+            <a href="#rentals" class="nav-link px-4">Rentals</a>
           </li>
           <li class="nav-item">
-            <a href="index.html" class="nav-link px-4">Location</a>
+            <a href="#service" class="nav-link px-4">Service</a>
           </li>
         </ul>
       </div>
@@ -56,24 +55,27 @@
         <li data-target="#homeCarousel" data-slide-to="1"></li>
       </ol>
       <div class="carousel-inner">
-        <div class="carousel-item carousel-image-1 active">
-          <div class="container">
-            <div class="carousel-caption">
-              <!-- TODO: Center caption -->
-              <h1 class="display-3">Heading One</h1>
-              <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo porro tenetur
-                praesentium quasi deserunt quidem sit, suscipit consequatur expedita reiciendis.</p>
-              <a href="#" class="btn btn-primary btn-lg">Read More</a>
+        <div id="showcase-item-1" class="carousel-item active">
+          <div class="dark-overlay">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1 class="display-3">Heading One</h1>
+                <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo porro tenetur
+                  praesentium quasi deserunt quidem sit, suscipit consequatur expedita reiciendis.</p>
+                <a href="#" class="btn btn-info btn-lg mb-5">Read More</a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="carousel-item carousel-image-2">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1 class="display-3">Heading One</h1>
-              <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo porro tenetur
-                praesentium quasi deserunt quidem sit, suscipit consequatur expedita reiciendis.</p>
-              <a href="#" class="btn btn-primary btn-lg">Read More</a>
+        <div id="showcase-item-2" class="carousel-item">
+          <div class="dark-overlay">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1 class="display-3">Heading Two</h1>
+                <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo porro tenetur
+                  praesentium quasi deserunt quidem sit, suscipit consequatur expedita reiciendis.</p>
+                <a href="#" class="btn btn-info btn-lg mb-5">Read More</a>
+              </div>
             </div>
           </div>
         </div>
@@ -88,7 +90,7 @@
   </section>
 
   <!-- HOME HEADING SECTION -->
-  <section id="home-heading" class="bg-dark">
+  <section id="home-heading" class="bg-main">
     <div class="row">
       <div class="col">
         <div class="container p-5">
@@ -104,13 +106,13 @@
 
   <!-- HOME INFO SECTION -->
   <section id="home-info">
-    <div class="row">
+    <div id="sales" class="row bg-minor">
       <div class="col-md-6 px-0">
         <div id="img-sales"></div>
       </div>
-      <div class="col-md-6 bg-light">
-        <div class="home-info-content text-center p-5 my-auto">
-          <h2>Heading</h2>
+      <div class="col-md-6 align-self-center">
+        <div class="home-info-content text-center px-5">
+          <h2>Bicycle Sales</h2>
           <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo illum, deserunt a
             accusantium consequuntur quidem!</p>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt unde temporibus nobis itaque deleniti
@@ -119,11 +121,10 @@
         </div>
       </div>
     </div>
-    <div class="row">
-
-      <div class="col-md-6 bg-light">
-        <div class="home-info-content text-center p-5 my-auto">
-          <h2>Heading</h2>
+    <div id="rentals" class="row bg-main">
+      <div class="col-md-6 text-light align-self-center">
+        <div class="home-info-content text-center px-5">
+          <h2>Rentals</h2>
           <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo illum, deserunt a
             accusantium consequuntur quidem!</p>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt unde temporibus nobis itaque deleniti
@@ -132,16 +133,16 @@
         </div>
       </div>
       <div class="col-md-6 px-0">
-        <div id="img-sales"></div>
+        <div id="img-rentals"></div>
       </div>
     </div>
-    <div class="row">
+    <div id="service" class="row bg-minor">
       <div class="col-md-6 px-0">
         <div id="img-sales"></div>
       </div>
-      <div class="col-md-6 bg-light">
-        <div class="home-info-content text-center p-5 my-auto">
-          <h2>Heading</h2>
+      <div class="col-md-6 align-self-center">
+        <div class="home-info-content text-center px-5">
+          <h2>Service & Repair</h2>
           <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo illum, deserunt a
             accusantium consequuntur quidem!</p>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt unde temporibus nobis itaque deleniti
@@ -151,6 +152,28 @@
       </div>
     </div>
   </section>
+
+  <!-- ABOUT EBIKES SECTION -->
+  <section id="home-about-ebikes" class="text-white">
+    <div class="darker-overlay d-flex align-items-center row-hl">
+      <div class="item-hl ml-5 p-5">
+        <h1 class="display-4 pb-2">What exactly is an e-Bike?</h1>
+        <div id="ebike-questions" class="pl-5">
+          <h4 class="p-2">How do they work?</h4>
+          <h4 class="p-2">How far can i ride?</h4>
+          <h4 class="p-2">What kind of e-Bike do i need?</h4>
+          <a href="#" class="btn btn-primary mt-3">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <div class="card">
+    <div class="card-body">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, voluptate.
+    </div>
+  </div>
 
 
 
