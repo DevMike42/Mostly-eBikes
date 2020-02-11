@@ -56,20 +56,28 @@ ul li {
   background: rgba(24, 184, 232, 0.88);
 }
 
-#showcase {
-  height: 100%;
+#nav-main {
+  height: 13vh;
 }
 
-#showcase .carousel-inner h1 {
-  font-family: 'Righteous', cursive;
+#showcase {
+  height: 72vh;
 }
+
+#home-heading {
+  height: 10cvh;
+}
+
+/* #showcase .carousel-inner h1 {
+  font-family: 'Righteous', cursive;
+} */
 
 #showcase-item-1 {
   position: relative;
   background: url('../img/showcase-1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
 }
 
 #showcase-item-2 {
@@ -78,6 +86,29 @@ ul li {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+#showcase-item-3 {
+  position: relative;
+  background: url('../img/showcase-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main-text {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  color: #fff;
+}
+
+.main-text h1 {
+  font-family: 'Righteous', cursive;
+}
+
+.homeCarousel {
+  height: 100%;
 }
 
 .carousel-item {
@@ -91,6 +122,7 @@ ul li {
   background: url('../img/map-bg.jpg');
   background-position: center;
   background-size: contain;
+  background-attachment: fixed;
   text-align: center;
   color: #fff;
 }
@@ -101,12 +133,8 @@ ul li {
   background: #fff;
 }
 
-#home-info .row {
-  height: 600px;
-}
-
-/* #home-info {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+/* #home-info .row {
+  height: 70vh;
 } */
 
 #home-info p {
@@ -115,10 +143,31 @@ ul li {
 
 #home-info #img-sales {
   position: relative;
-  background: url('../img/sales-home.jpg');
+  background: url('../img/home-sales.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
+}
+
+#sales-left,
+#sales-right,
+#rentals-left,
+#rentals-right,
+#service-left,
+#service-right {
+  height: 70vh;
+}
+
+
+
+#sales-right .hline,
+#service-right .hline {
+  width: 75px;
+  height: 1px;
+  background: #085972;
+  opacity: .2;
+  /* border: #085972 solid 1px;
+  border-radius: 50%; */
 }
 
 #home-info #rentals-left {
@@ -126,6 +175,7 @@ ul li {
   background: url('../img/map-bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 100%;
 }
 
@@ -187,6 +237,7 @@ ul li {
   background: url('../img/map-bg.jpg');
   background-position: top;
   background-size: contain;
+  background-attachment: fixed;
   text-align: center;
   color: #fff;
 }

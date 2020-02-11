@@ -13,16 +13,16 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="assets/css/mobile.css">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/mobile.css">
   <title>Mostly e-Bikes | Home</title>
 </head>
 
 <body>
   <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-sm navbar-dark bg-main">
+  <nav id="nav-main" class="navbar navbar-expand-xs navbar-dark bg-main">
     <div class="container">
-      <a id="logo" href="index.html" class="navbar-brand">
+      <a id="logo" href="#" class="navbar-brand">
         Mostly e-Bikes
       </a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -61,22 +61,33 @@
         <div id="showcase-item-1" class="carousel-item active">
           <div class="dark-overlay">
             <div class="container">
-              <div class="carousel-caption">
+              <!-- <div class="carousel-caption">
                 <h1 class="display-3">Mostly e-Bikes</h1>
                 <p class="lead font-italic">North County San Diego's premier electric bikeshop</p>
                 <a href="#" class="invisible btn btn-main btn-lg mb-5">Read More</a>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
         <div id="showcase-item-2" class="carousel-item">
           <div class="dark-overlay">
             <div class="container">
-              <div class="carousel-caption">
+              <!-- <div class="carousel-caption">
                 <h1 class="display-3">Mostly e-Bikes</h1>
                 <p class="lead font-italic">North County San Diego's premier electric bikeshop</p>
                 <a href="#" class="invisible btn btn-main btn-lg mb-5">Read More</a>
-              </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+        <div id="showcase-item-3" class="carousel-item">
+          <div class="dark-overlay">
+            <div class="container">
+              <!-- <div class="carousel-caption">
+                <h1 class="display-3">Mostly e-Bikes</h1>
+                <p class="lead font-italic">North County San Diego's premier electric bikeshop</p>
+                <a href="#" class="invisible btn btn-main btn-lg mb-5">Read More</a>
+              </div> -->
             </div>
           </div>
         </div>
@@ -87,6 +98,10 @@
       <a href="#homeCarousel" class="carousel-control-next" data-slide="next">
         <span class="carousel-control-next-icon"></span>
       </a>
+    </div>
+    <div class="main-text text-center">
+      <h1 class="display-3">Mostly e-Bikes</h1>
+      <p class="lead font-italic">North County San Diego's premier electric bikeshop</p>
     </div>
   </section>
 
@@ -111,7 +126,7 @@
   <section id="home-info">
     <!-- Home Info (SALES) -->
     <div id="sales" class="row bg-minor">
-      <div class="col-md-6 px-0">
+      <div id="sales-left" class="col-md-6 px-0">
         <div id="img-sales">
           <div class="medium-overlay d-flex align-items-center">
             <div class="img-content p-5 text-white">
@@ -128,47 +143,20 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6 align-self-center">
-        <div class="home-info-content text-center text-minor p-5">
+      <div id="sales-right" class="col-md-6 align-self-center">
+        <div class="home-info-content text-center text-minor p-2">
           <h1 class="display-4">Sales</h1>
           <hr>
-          <div id="home-info-body text-center">
-            <div class="d-flex justify-content-center py-1">
-              <div class="d-flex align-items-center px-3">
-                <i class="fas fa-check"></i>
-              </div>
-              <h3>Electric Bicycles</h3>
-            </div>
-            <div class="d-flex justify-content-center py-1">
-              <div class="d-flex align-items-center px-3">
-                <i class="fas fa-check"></i>
-              </div>
-              <h3>Pedal Bicycles</h3>
-            </div>
-            <div class="d-flex justify-content-center py-1">
-              <div class="d-flex align-items-center px-3">
-                <i class="fas fa-check"></i>
-              </div>
-              <h3>Parts & Accessories</h3>
-            </div>
-            <div class="d-flex justify-content-center py-1">
-              <div class="d-flex align-items-center px-3">
-                <i class="fas fa-check"></i>
-              </div>
-              <h3>Cleaning & Maintenance Supplies</h3>
-            </div>
-            <div class="d-flex justify-content-center py-1">
-              <div class="d-flex align-items-center px-3">
-                <i class="fas fa-check"></i>
-              </div>
-              <h3>Helmets & Safety Equipment</h3>
-            </div>
-            <div class="d-flex justify-content-center py-1">
-              <div class="d-flex align-items-center px-3">
-                <i class="fas fa-check"></i>
-              </div>
-              <h3>Rental Sales</h3>
-            </div>
+          <div id="home-info-body text-center text-center">
+            <h3 class="mx-auto py-3">Electric Bicycles</h3>
+            <div class="hline mx-auto "></div>
+            <h3 class="mx-auto py-3">Pedal Bicycles</h3>
+            <div class="hline mx-auto "></div>
+            <h3 class="mx-auto py-3">Parts & Accessories</h3>
+            <div class="hline mx-auto "></div>
+            <h3 class="mx-auto py-3">Cleaning & Maintenance Supplies</h3>
+            <div class="hline mx-auto "></div>
+            <h3 class="mx-auto py-3">Rental Sales</h3>
           </div>
         </div>
       </div>
@@ -253,7 +241,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6 px-0">
+      <div id="rentals-right" class="col-md-6 px-0">
         <div id="img-rentals">
           <div class="medium-overlay d-flex align-items-center">
             <div class="img-content p-5 text-white text-right">
@@ -273,7 +261,7 @@
     </div>
     <!-- Home Info (SERVICE) -->
     <div id="service" class="row bg-minor">
-      <div class="col-md-6 px-0">
+      <div id="service-left" class="col-md-6 px-0">
         <div id="img-repair">
           <div class="medium-overlay d-flex align-items-center">
             <div class="img-content p-5 text-white">
@@ -290,41 +278,20 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6 align-self-center">
-        <div class="home-info-content text-center text-minor px-5">
+      <div id="service-right" class="col-md-6 align-self-center">
+        <div id="service-right" class="home-info-content text-center text-minor px-5">
           <h1 class="display-4">Service & Repair</h1>
           <hr>
-          <div id="home-info-body text-center">
-            <div class="d-flex justify-content-center py-1">
-              <div class="d-flex align-items-center px-3">
-                <i class="fas fa-check"></i>
-              </div>
-              <h3>Minor & Major Tune-up Packages</h3>
-            </div>
-            <div class="d-flex justify-content-center py-1">
-              <div class="d-flex align-items-center px-3">
-                <i class="fas fa-check"></i>
-              </div>
-              <h3>e-Bike Software Updates & Customization</h3>
-            </div>
-            <div class="d-flex justify-content-center py-1">
-              <div class="d-flex align-items-center px-3">
-                <i class="fas fa-check"></i>
-              </div>
-              <h3>Replacement of Parts & Accessories</h3>
-            </div>
-            <div class="d-flex justify-content-center py-1">
-              <div class="d-flex align-items-center px-3">
-                <i class="fas fa-check"></i>
-              </div>
-              <h3>&#224; la carte Adjustments</h3>
-            </div>
-            <div class="d-flex justify-content-center py-1">
-              <div class="d-flex align-items-center px-3">
-                <i class="fas fa-check"></i>
-              </div>
-              <h3>Safety Inspections</h3>
-            </div>
+          <div id="home-info-body text-center text-center">
+            <h3 class="mx-auto py-3">Minor & Major Tune-up Packages</h3>
+            <div class="hline mx-auto "></div>
+            <h3 class="mx-auto py-3">e-Bike Software Updates & Customization</h3>
+            <div class="hline mx-auto "></div>
+            <h3 class="mx-auto py-3">Replacement of Parts & Accessories</h3>
+            <div class="hline mx-auto "></div>
+            <h3 class="mx-auto py-3">Safety Inspections</h3>
+            <div class="hline mx-auto "></div>
+            <h3 class="mx-auto py-3">&#224; la carte Adjustments</h3>
           </div>
         </div>
       </div>
