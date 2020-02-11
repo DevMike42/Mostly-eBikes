@@ -1,0 +1,34 @@
+@media (max-width: 768px) {
+#logo {
+  font-size: 2rem;
+}
+
+#showcase .main-text h1 {
+  font-size: 3rem;
+}
+
+#showcase {
+  height: 83vh;
+}
+
+.img-content h1 {
+  font-size: 1rem;
+}
+
+#home-heading h1 {
+  font-size: 1.3rem;
+}
+
+#home-heading .hline {
+  width: 40px;
+}
+
+#home-info-body {
+  font-size: .1rem;
+}
+
+#testimonials p {
+  font-size: 1rem;
+}
+
+}
