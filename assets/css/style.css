@@ -1,159 +1,63 @@
-body, html {
-  font-family: 'Roboto', sans-serif;
-}
 
-#logo {
-  font-family: 'Righteous', cursive;
-}
-
-.bg-main {
-  background-color: #18B8E8;
-}
-
-.bg-minor {
-  background-color: #DDDACE;
-}
-
-.text-minor {
-  color: #085972;
-}
-
-.btn-main {
-  color: #fff;
-  background-color: #18B8E8;
-  border-color: #18B8E8;
-}
-
-ul li {
-  list-style: none;
-}
-
-.dark-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-}
-
-.medium-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.4);
-}
-
-.color-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(24, 184, 232, 0.88);
-}
-
+/* ================================== */
+/* NAVBAR */
 #nav-main {
   height: 10vh;
 }
 
-#nav-main #logo {
+#nav-main .logo {
   font-size: 3rem;
 }
 
+/* ================================== */
+/* SHOWCASE */
+
 #showcase {
-  height: 75vh;
+  height: 60vh;
+  width: 100%;
+} 
+
+#showcase .showcase-img {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+  width: 100%;
 }
 
-/* #banner-heading {
-  height: 10vh;
-} */
-
-/* #showcase .carousel-inner h1 {
-  font-family: 'Righteous', cursive;
-} */
-
-#showcase-item-1 {
-  position: relative;
+#showcase #showcase-item-1 {
   background: url('../img/showcase-1.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
-  height: 77vh;
 }
 
-#showcase-item-2 {
-  position: relative;
+#showcase #showcase-item-2 {
   background: url('../img/showcase-2.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
-  height: 77vh;
 }
 
-#showcase-item-3 {
-  position: relative;
+#showcase #showcase-item-3 {
   background: url('../img/showcase-3.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
-  height: 77vh;
 }
 
-.main-text {
+#showcase #showcase-item-4 {
+  background: url('../img/showcase-4.jpg');
+  background-position: center;
+}
+
+#showcase #showcase-main-text {
   position: absolute;
-  top: 200px;
+  bottom: 300px;
   width: 100%;
   color: #fff;
 }
 
-.main-text h1 {
-  font-family: 'Righteous', cursive;
-}
-
-.homeCarousel {
-  height: 100%;
-}
-
-.carousel-item {
-  height: 700px;
-}
-
-
-#banner-heading {
-  position: relative;
-  min-height: 15vh;
-  background: url('../img/map-bg.jpg');
-  background-position: center;
-  background-size: contain;
-  background-attachment: fixed;
-  text-align: center;
-  color: #fff;
-}
-
-#banner-heading .hline {
-  width: 100px;
-  height: 2px;
-  background: #fff;
-}
+/* ================================== */
+/* HOME INFO */
 
 /* #home-info .row {
   height: 70vh;
 } */
-
-#home-info p {
-  font-size: 1.7rem;
-}
-
-#home-info #img-sales {
-  position: relative;
-  background: url('../img/home-sales.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
-}
 
 #sales-left,
 #sales-right,
@@ -164,17 +68,50 @@ ul li {
   height: 70vh;
 }
 
+#home-info .box-icon i {
+  font-size: 5rem;
+}
+
+#home-info h1 {
+  font-size: 3.5rem;
+}
+
+#home-info .lead {
+  font-size: 1.7rem;
+}
+
+#home-info p {
+  font-size: 1.4rem;
+}
+
+#home-info .box-sub-heading span {
+  text-transform: uppercase;
+  font-weight: bolder;
+}
 
 
-#sales-right .hline,
+#home-info #img-sales {
+  position: relative;
+  background: url('../img/home-sales.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+
+/* #sales-right .hline,
 #service-right .hline {
   width: 75px;
   height: 1px;
   background: #085972;
   opacity: .2;
-  /* border: #085972 solid 1px;
-  border-radius: 50%; */
-}
+  border: #085972 solid 1px;
+  border-radius: 50%;
+} */
 
 #home-info #rentals-left {
   position: relative;
@@ -215,6 +152,9 @@ ul li {
   height: 100%;
 }
 
+/* ================================== */
+/* TESTIMONIALS */
+
 #testimonials p {
   font-size: 1.4rem;
 }
@@ -226,6 +166,9 @@ ul li {
 .rating  i {
   text-shadow: 0 0 3px #000;
 }
+
+/* ================================== */
+/* FOOTER */
 
 #footer-logo-banner  h1 {
   font-family: 'Righteous', cursive;
@@ -260,8 +203,8 @@ ul li {
   font-size: 3rem;
 } */
 
-/* =========================== */
-/* Service Showcase */
+/* ================================== */
+/* SERVICE SHOWCASE */
 
 #service-showcase {
   position: relative;
