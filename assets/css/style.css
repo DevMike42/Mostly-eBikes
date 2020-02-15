@@ -171,7 +171,7 @@
 /* FOOTER */
 
 #footer-logo-banner  h1 {
-  font-family: 'Righteous', cursive;
+  /* font-family: 'Righteous', cursive; */
 }
 
 #footer-logo-banner .hline {
@@ -182,7 +182,7 @@
 
 #footer-content {
   position: relative;
-  min-height: 300px;
+  min-height: 35vh;
   background: url('../img/map-bg.jpg');
   background-position: top;
   background-size: contain;
@@ -190,21 +190,6 @@
   text-align: center;
   color: #fff;
 }
-
-#footer-content  h3 {
-  font-family: 'Righteous', cursive;
-}
-
-#footer-content  a {
-  color: #fff;
-}
-
-/* #footer-banner h1 {
-  font-size: 3rem;
-} */
-
-/* ================================== */
-/* SERVICE SHOWCASE */
 
 #service-showcase {
   position: relative;

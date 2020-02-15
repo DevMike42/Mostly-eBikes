@@ -52,5 +52,25 @@
     width: 1.5rem;
   }
 
+  /* #footer-content {
+    height: 100vh;
+  }
+
+  #footer-items {
+    flex-direction: column;
+  }
+
+  .footer-item  h4,
+  .footer-item  h3,
+  .footer-item  p,
+  .footer-item a {
+    text-align: center;
+    margin: auto;
+  } */
+
+  #footer-content {
+    height: 100vh;
+  }
+
 
 }
