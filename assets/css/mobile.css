@@ -1,34 +1,76 @@
-@media (max-width: 768px) {
-#logo {
-  font-size: 2rem;
+.banner-heading .banner-content h1 {
+  font-size: 1.8rem;
 }
 
-#showcase .main-text h1 {
-  font-size: 3rem;
+.banner-heading .banner-content .hline {
+  width: 1.5rem;
 }
 
-#showcase {
-  height: 83vh;
-}
 
-.img-content h1 {
-  font-size: 1rem;
-}
+@media(max-width: 500px) {
+  #nav-main .logo {
+    font-size: 1.8rem;
+  }
 
-#home-heading h1 {
-  font-size: 1.3rem;
-}
+  #showcase,
+  #showcase .showcase-img {
+    height: 60vh;
+  }
 
-#home-heading .hline {
-  width: 40px;
-}
+  #showcase #showcase-item-1 {
+    background: url('../img/showcase-1-mobile.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 
-#home-info-body {
-  font-size: .1rem;
-}
+  #showcase #showcase-main-text h1 {
+    font-size: 2rem;
+  }
 
-#testimonials p {
-  font-size: 1rem;
-}
+  #home-info h1 {
+    font-size: 2rem;
+  }
+
+  #home-info p {
+    font-size: 1.2rem;
+  }
+
+  #home-info .box-sub-heading .lead {
+    font-size: 1.4rem;
+  }
+
+  .banner-heading {
+    height: 10vh;
+  }
+
+  .banner-heading .banner-content h1 {
+    font-size: 1.3rem;
+  }
+  
+  .banner-heading .banner-content .hline {
+    width: 1.5rem;
+  }
+
+  /* #footer-content {
+    height: 100vh;
+  }
+
+  #footer-items {
+    flex-direction: column;
+  }
+
+  .footer-item  h4,
+  .footer-item  h3,
+  .footer-item  p,
+  .footer-item a {
+    text-align: center;
+    margin: auto;
+  } */
+
+  #footer-content {
+    height: 100vh;
+  }
+
 
 }

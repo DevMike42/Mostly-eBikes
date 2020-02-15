@@ -1,0 +1,83 @@
+:root {
+  --main-color: #18B8E8;
+  --main-color-dark: #085972;
+  --secondary-color: #DDDACE;
+}
+
+body, html {
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+  font-family: 'Righteous', cursive;
+}
+
+.bg-main-color {
+  background-color: var(--main-color);
+}
+
+.bg-secondary-color {
+  background-color: var(--secondary-color);
+}
+
+.text-secondary-color {
+  color: var(--main-color-dark);
+}
+
+.btn-main-color {
+  color: #fff;
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+}
+
+ul li {
+  list-style: none;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.medium-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(24, 184, 232, 0.88);
+}
+
+.banner-heading {
+  position: relative;
+  height: 15vh;
+  background: url('../img/map-bg.jpg');
+  background-position: center;
+  background-size: contain;
+  background-attachment: fixed;
+  text-align: center;
+  color: #fff;
+}
+
+.banner-heading .hline {
+  width: 100px;
+  height: 2px;
+  background: #fff;
+}
+
+.box-content {
+  height: 100%;
+}
