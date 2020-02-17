@@ -182,7 +182,7 @@
 
 #footer-content {
   position: relative;
-  min-height: 35vh;
+  height: 45vh;
   background: url('../img/map-bg.jpg');
   background-position: top;
   background-size: contain;
