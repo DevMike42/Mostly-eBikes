@@ -6,6 +6,22 @@
   width: 1.5rem;
 }
 
+#sales {
+  /* width: 100%; */
+}
+
+#footer-content {
+  height: 100vh;
+}
+
+#footer-logo-banner .footer-banner-content h1 {
+  font-size: 1.5rem;
+}
+
+#footer-logo-banner .footer-banner-content .hline {
+  width: 2rem;
+}
+
 
 @media(max-width: 500px) {
   #nav-main .logo {
@@ -52,21 +68,9 @@
     width: 1.5rem;
   }
 
-  /* #footer-content {
-    height: 100vh;
+  #home-about-ebikes .about-ebikes-content #ebike-questions h4 {
+    font-size: 1.2rem;
   }
-
-  #footer-items {
-    flex-direction: column;
-  }
-
-  .footer-item  h4,
-  .footer-item  h3,
-  .footer-item  p,
-  .footer-item a {
-    text-align: center;
-    margin: auto;
-  } */
 
   #footer-content {
     height: 100vh;
