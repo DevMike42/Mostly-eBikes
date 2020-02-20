@@ -27,7 +27,7 @@
 
 #showcase #showcase-item-1 {
   background: url('../img/showcase-1.jpg');
-  background-position: bottom;
+  background-position: center;
 }
 
 #showcase #showcase-item-2 {
@@ -55,9 +55,9 @@
 /* ================================== */
 /* HOME INFO */
 
-/* #home-info .row {
+#home-info .row {
   height: 70vh;
-} */
+}
 
 #sales-left,
 #sales-right,
@@ -65,7 +65,7 @@
 #rentals-right,
 #service-left,
 #service-right {
-  height: 70vh;
+  height: 100%;
 }
 
 #home-info .box-icon i {
@@ -94,19 +94,20 @@
   position: relative;
   background: url('../img/home-sales.jpg');
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
 }
 
 #home-info #rentals-left {
-  /* position: relative; */
-  /* background: url('../img/map-bg.jpg'); */
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
-  /* background-attachment: fixed; */
-  /* height: 100%; */
-  /* width: 100%; */
+  position: relative;
+  background: url('../img/map-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
 }
 
 #home-info #img-rentals {
@@ -131,8 +132,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /* height: 100%; */
-  min-height: 500px;
+  height: 50vh;
+  /* min-height: 500px; */
 }
 
 .row-hl {

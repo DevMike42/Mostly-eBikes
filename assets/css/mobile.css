@@ -56,6 +56,15 @@
     font-size: 1.4rem;
   }
 
+  #home-info #rentals-left .box-content h4 {
+    font-size: 1.25rem;
+  }
+
+  #home-info
+  #service-right .box-content h3 {
+    /* font-size: .5rem; */
+  }
+
   .banner-heading {
     height: 10vh;
   }
@@ -69,7 +78,7 @@
   }
 
   #home-about-ebikes .about-ebikes-content #ebike-questions h4 {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   #testimonials p {
