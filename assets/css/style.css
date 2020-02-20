@@ -13,7 +13,7 @@
 /* SHOWCASE */
 
 #showcase {
-  height: 60vh;
+  height: 90vh;
   width: 100%;
 } 
 
@@ -21,13 +21,13 @@
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 60vh;
+  height: 90vh;
   width: 100%;
 }
 
 #showcase #showcase-item-1 {
   background: url('../img/showcase-1.jpg');
-  background-position: center;
+  background-position: bottom;
 }
 
 #showcase #showcase-item-2 {
@@ -47,7 +47,7 @@
 
 #showcase #showcase-main-text {
   position: absolute;
-  bottom: 300px;
+  bottom: 5rem;
   width: 100%;
   color: #fff;
 }
@@ -99,27 +99,14 @@
   width: 100%;
 }
 
-
-
-
-
-/* #sales-right .hline,
-#service-right .hline {
-  width: 75px;
-  height: 1px;
-  background: #085972;
-  opacity: .2;
-  border: #085972 solid 1px;
-  border-radius: 50%;
-} */
-
 #home-info #rentals-left {
-  position: relative;
-  background: url('../img/map-bg.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 100%;
+  /* position: relative; */
+  /* background: url('../img/map-bg.jpg'); */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  /* background-attachment: fixed; */
+  /* height: 100%; */
+  /* width: 100%; */
 }
 
 #home-info #img-rentals {
@@ -130,7 +117,7 @@
   height: 100%;
 }
 
-#home-info #img-repair {
+#home-info #img-service {
   position: relative;
   background: url('../img/repair-home.jpg');
   background-size: cover;

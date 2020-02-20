@@ -15,13 +15,15 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="assets/css/utils.css">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="assets/css/mobile.css">
+  <link rel="stylesheet" media="screen and (min-width: 1100px)" href="assets/css/widescreen.css">
   <!-- <link rel="stylesheet" href="assets/css/mobile.css"> -->
   <title>Mostly e-Bikes | Home</title>
 </head>
 
 <body>
   <!-- NAVBAR -->
-  <nav id="nav-main" class="navbar navbar-expand-sm navbar-dark bg-main-color">
+  <nav id="nav-main" class="navbar navbar-expand-lg navbar-dark bg-main-color">
     <div class="container">
       <a href="#" class="navbar-brand logo">
         Mostly e-Bikes
@@ -57,39 +59,24 @@
       <ol class="carousel-indicators">
         <li class="active" data-target="#showcaseCarousel" data-slide-to="0"></li>
         <li data-target="#showcaseCarousel" data-slide-to="1"></li>
+        <li data-target="#showcaseCarousel" data-slide-to="2"></li>
+        <li data-target="#showcaseCarousel" data-slide-to="3"></li>
       </ol>
       <div class="carousel-inner">
         <div id="showcase-item-1" class="carousel-item showcase-img active">
           <div class="dark-overlay">
-            <div class="container">
-              <!-- <div class="carousel-caption">
-                <h1 class="display-3">Mostly e-Bikes</h1>
-                <p class="lead font-italic">North County San Diego's premier electric bikeshop</p>
-                <a href="#" class="invisible btn btn-main-color btn-lg mb-5">Read More</a>
-              </div> -->
-            </div>
           </div>
         </div>
         <div id="showcase-item-2" class="carousel-item showcase-img">
           <div class="dark-overlay">
-            <div class="container">
-              <!-- <div class="carousel-caption">
-                <h1 class="display-3">Mostly e-Bikes</h1>
-                <p class="lead font-italic">North County San Diego's premier electric bikeshop</p>
-                <a href="#" class="invisible btn btn-main-color btn-lg mb-5">Read More</a>
-              </div> -->
-            </div>
           </div>
         </div>
         <div id="showcase-item-3" class="carousel-item showcase-img">
           <div class="dark-overlay">
-            <div class="container">
-              <!-- <div class="carousel-caption">
-                <h1 class="display-3">Mostly e-Bikes</h1>
-                <p class="lead font-italic">North County San Diego's premier electric bikeshop</p>
-                <a href="#" class="invisible btn btn-main-color btn-lg mb-5">Read More</a>
-              </div> -->
-            </div>
+          </div>
+        </div>
+        <div id="showcase-item-4" class="carousel-item showcase-img">
+          <div class="dark-overlay">
           </div>
         </div>
       </div>
@@ -100,24 +87,20 @@
         <span class="carousel-control-next-icon"></span>
       </a>
     </div>
-    <div id="showcase-main-text" class="logo text-center">
-      <h1 class="display-3">Mostly e-Bikes</h1>
+    <div id="showcase-main-text" class="text-center">
+      <h1 class="logo display-3">Mostly e-Bikes</h1>
       <p class="lead font-italic">North County San Diego's premier electric bikeshop</p>
     </div>
   </section>
 
   <!-- BANNER HEADING (HOME) -->
-  <section id="banner-heading" class="text-white">
-    <div class="color-overlay">
-      <div class="row">
-        <div class="col">
-          <div class="container p-5">
-            <div class="d-flex justify-content-center text-white">
-              <div class="hline my-auto mx-3"></div>
-              <h1>An e-Bike for every type of rider</h1>
-              <div class="hline my-auto mx-3"></div>
-            </div>
-          </div>
+  <section class="banner-heading text-white">
+    <div class="color-overlay d-flex align-items-center">
+      <div class="container">
+        <div class="banner-content d-flex justify-content-center text-white py-3">
+          <div class="hline my-auto mr-3"></div>
+          <h1>An e-Bike for every type of rider</h1>
+          <div class="hline my-auto ml-3"></div>
         </div>
       </div>
     </div>
@@ -126,13 +109,13 @@
   <!-- HOME INFO SECTION -->
   <section id="home-info">
     <!-- Home Info (SALES) -->
-    <div id="sales" class="row bg-secondary-color">
+    <div id="sales" class="row m-0">
       <div id="sales-left" class="col-md-6 px-0">
         <div id="img-sales">
-          <div class="medium-overlay d-flex align-items-center">
+          <div class="dark-overlay d-flex align-items-center">
             <div class="img-content p-5 text-white">
               <div class="px-4 py-3">
-                <h1 class="display-4 text-uppercase">Find the right bike for you</h1>
+                <h1 class="text-uppercase">Find the right bike for you</h1>
               </div>
               <div class="px-4 py-3">
                 <p class="lead">Let us help you narrow down your options and find the best fit for you</p>
@@ -144,113 +127,83 @@
           </div>
         </div>
       </div>
-      <div id="sales-right" class="col-md-6 align-self-center">
-        <div class="home-info-content text-center text-secondary-color p-2">
-          <h1 class="display-4">Sales</h1>
-          <hr>
-          <div id="home-info-body text-center text-center">
-            <h3 class="mx-auto py-3">Electric Bicycles</h3>
-            <div class="hline mx-auto "></div>
-            <h3 class="mx-auto py-3">Pedal Bicycles</h3>
-            <div class="hline mx-auto "></div>
-            <h3 class="mx-auto py-3">Parts & Accessories</h3>
-            <div class="hline mx-auto "></div>
-            <h3 class="mx-auto py-3">Cleaning & Maintenance Supplies</h3>
-            <div class="hline mx-auto "></div>
-            <h3 class="mx-auto py-3">Rental Sales</h3>
+      <div id="sales-right" class="col-md-6 p-0">
+        <div class="box-content d-flex align-items-center bg-secondary-color text-secondary-color">
+          <div class="p-4 m-auto">
+            <div class="box-icon text-center">
+              <i class="fas fa-bicycle fa-3x"></i>
+            </div>
+            <div class="box-heading pb-2">
+              <h1 class="text-center">Our Bicycles</h1>
+            </div>
+            <div class="box-sub-heading pb-3 px-5">
+              <p class="font-italic text-center">We carry both <span>electric</span> and
+                <span>pedal</span>
+                bicycles in a wide range of both styles and sizes to meet your needs.</p>
+            </div>
+            <h3 class="text-center pb-2">BRANDS</h3>
+            <div class=" m-auto text-center">
+              <p class="d-inline-block px-3">Electra</p>
+              <p class="d-inline-block px-3">TERN</p>
+              <p class="d-inline-block px-3">Gazelle</p>
+              <p class="d-inline-block px-3">Surly</p>
+            </div>
+            <div class="m-auto text-center">
+              <p class="d-inline-block px-3">HaiBike</p>
+              <p class="d-inline-block px-3">Raleigh</p>
+              <p class="d-inline-block px-3">iZip</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
+
     <!-- Home Info (RENTALS) -->
-    <div id="rentals-info" class="row bg-main-color">
-      <div id="rentals-left" class="col-md-6 text-light align-self-center">
-        <div class="color-overlay py-5">
-          <div class="home-info-content text-center text-white pt-5 px-5">
-            <h1 class="display-4">Rental Rates</h1>
-            <hr>
-          </div>
-          <div class="px-5">
-            <div class="d-flex justify-content-between text-white">
-              <div class="text-left pl-5 mr-auto">
-                <h4>e-Bike</h4>
+    <div id="rentals" class="row m-0">
+      <div id="rentals-left" class="col-md-6 px-0">
+        <div class="box-content d-flex align-items-center bg-main-color text-white">
+          <div class="box-content p-5 mx-auto w-100">
+            <h1 class="text-center mx-auto my-5">Rental Rates</h1>
+            <div class="w-75 mx-auto">
+              <div class="d-flex justify-content-between">
+                <h4>2 Hours</h4>
+                <h4>$45</h4>
               </div>
-              <div class="text-right ml-auto">
-                <h4>1 Day (24hrs)</h4>
+              <div class="d-flex justify-content-between">
+                <h4>1 Day (24Hours)</h4>
+                <h4>$70</h4>
               </div>
-              <div class="text-right px-5">
-                <h4>$ 70</h4>
-              </div>
-            </div>
-            <div class="d-flex justify-content-between text-white">
-              <div class="text-left pl-5 mr-auto">
-                <h4>e-Bike</h4>
-              </div>
-              <div class="text-right ml-auto">
+              <div class="d-flex justify-content-between">
                 <h4>1 Week</h4>
+                <h4>$295</h4>
               </div>
-              <div class="text-right px-5">
-                <h4>$ 295</h4>
+              <br>
+              <h2 class="text-center">Pedal Bike</h2>
+              <div class="d-flex justify-content-between">
+                <h4>2 Hours</h4>
+                <h4>$30</h4>
               </div>
-            </div>
-            <br>
-            <div class="d-flex justify-content-between text-white">
-              <div class="text-left pl-5 mr-auto">
-                <h4>Pedal Bike</h4>
+              <div class="d-flex justify-content-between">
+                <h4>1 Day (24Hours)</h4>
+                <h4>$40</h4>
               </div>
-              <div class="text-right ml-auto">
-                <h4>1 day (24hrs)</h4>
-              </div>
-              <div class="text-right px-5">
-                <h4>$ 40</h4>
-              </div>
-            </div>
-            <div class="d-flex justify-content-between text-white">
-              <div class="text-left pl-5 mr-auto">
-                <h4>Pedal Bike</h4>
-              </div>
-              <div class="text-right ml-auto">
+              <div class="d-flex justify-content-between">
                 <h4>1 Week</h4>
-              </div>
-              <div class="text-right px-5">
-                <h4>$ 185</h4>
-              </div>
-            </div>
-            <br>
-            <div class="d-flex justify-content-between text-white">
-              <div class="text-left pl-5 mr-auto">
-                <h4>e-Bike</h4>
-              </div>
-              <div class="text-right ml-auto">
-                <h4>2 hours</h4>
-              </div>
-              <div class="text-right px-5">
-                <h4>$ 45</h4>
-              </div>
-            </div>
-            <div class="d-flex justify-content-between text-white">
-              <div class="text-left pl-5 mr-auto">
-                <h4>Pedal Bike</h4>
-              </div>
-              <div class="text-right ml-auto">
-                <h4>2 hours</h4>
-              </div>
-              <div class="text-right px-5">
-                <h4>$ 30</h4>
+                <h4>$185</h4>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div id="rentals-right" class="col-md-6 px-0">
+      <div id="rentals-right" class="col-md-6 p-0">
         <div id="img-rentals">
-          <div class="medium-overlay d-flex align-items-center">
-            <div class="img-content p-5 text-white text-right">
+          <div class="dark-overlay d-flex align-items-center">
+            <div class="img-content p-5 text-white">
               <div class="px-4 py-3">
-                <h1 class="display-4 text-uppercase">Make a rental reservation</h1>
+                <h1 class="text-uppercase">Make a Rental Reservation</h1>
               </div>
               <div class="px-4 py-3">
-                <p class="lead">Make a rental reservation now</p>
+                <p class="lead">Book your rental bike today</p>
               </div>
               <div class="px-4 py-3">
                 <a href="#" class="btn btn-lg btn-main-color">Book Now</a>
@@ -260,50 +213,58 @@
         </div>
       </div>
     </div>
+
     <!-- Home Info (SERVICE) -->
-    <div id="service" class="row bg-secondary-color">
+    <div id="service" class="row m-0">
       <div id="service-left" class="col-md-6 px-0">
-        <div id="img-repair">
-          <div class="medium-overlay d-flex align-items-center">
+        <div id="img-service">
+          <div class="dark-overlay d-flex align-items-center">
             <div class="img-content p-5 text-white">
               <div class="px-4 py-3">
-                <h1 class="display-4 text-uppercase">Everyone wants a smooth running bicycle</h1>
+                <h1 class="text-uppercase">Everyone wants a smooth running bicycle</h1>
               </div>
               <div class="px-4 py-3">
-                <p class="lead">Check out our service and tune up packages!</p>
+                <p class="lead">Check out our service and tune-up packages</p>
               </div>
               <div class="px-4 py-3">
-                <a href="#" class="btn btn-lg btn-main-color">View Tune-ups</a>
+                <a href="#" class="btn btn-lg btn-main-color">View Tune-Ups</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div id="service-right" class="col-md-6 align-self-center">
-        <div id="service-right" class="home-info-content text-center text-secondary-color px-5">
-          <h1 class="display-4">Service & Repair</h1>
-          <hr>
-          <div id="home-info-body text-center text-center">
-            <h3 class="mx-auto py-3">Minor & Major Tune-up Packages</h3>
-            <div class="hline mx-auto "></div>
-            <h3 class="mx-auto py-3">e-Bike Software Updates & Customization</h3>
-            <div class="hline mx-auto "></div>
-            <h3 class="mx-auto py-3">Replacement of Parts & Accessories</h3>
-            <div class="hline mx-auto "></div>
-            <h3 class="mx-auto py-3">Safety Inspections</h3>
-            <div class="hline mx-auto "></div>
-            <h3 class="mx-auto py-3">&#224; la carte Adjustments</h3>
+      <div id="service-right" class="col-md-6 p-0">
+        <div class="box-content d-flex align-items-center bg-secondary-color text-secondary-color">
+          <div class="p-4 m-auto">
+            <div class="box-icon text-center">
+              <i class="fas fa-tools fa-3x"></i>
+            </div>
+            <div class="box-heading pb-2">
+              <h1 class="text-center">Service & Repair</h1>
+            </div>
+            <div class="box-sub-heading pb-3 px-5">
+
+            </div>
+            <br>
+            <h3 class="text-center pb-2">Minor & Major Tune-Up Packages</h3>
+            <h3 class="text-center pb-2">e-Bike Software Updates & Customization</h3>
+            <h3 class="text-center pb-2">Replacement of Parts & Accessories</h3>
+            <h3 class="text-center pb-2">Safety Inspections</h3>
+            <h3 class="text-center pb-2">&#224; la carte Adjustments</h3>
+
           </div>
         </div>
       </div>
     </div>
+
+
   </section>
 
   <!-- ABOUT EBIKES SECTION -->
   <section id="home-about-ebikes" class="text-white">
     <div class="dark-overlay d-flex align-items-center row-hl">
-      <div class="item-hl ml-5 p-5">
-        <h1 class="display-4 pb-2">What exactly is an e-Bike?</h1>
+      <div class="about-ebikes-content ml-5 p-5">
+        <h1 class="pb-2">What exactly is an e-Bike?</h1>
         <div id="ebike-questions" class="pl-5">
           <h4 class="p-1">How do they work?</h4>
           <h4 class="p-1">How far can i ride?</h4>
@@ -393,82 +354,93 @@
   <!-- FOOTER -->
   <footer id="footer-main">
     <div id="footer-logo-banner" class="bg-secondary-color border-top border-secondary">
-      <div class="d-flex justify-content-center text-secondary-color">
+      <div class="footer-banner-content d-flex justify-content-center text-secondary-color">
         <div class="hline my-auto mx-3"></div>
-        <h1 class="py-4">Mostly e-Bikes</h1>
+        <h1 class="logo py-4">Mostly e-Bikes</h1>
         <div class="hline my-auto mx-3"></div>
       </div>
     </div>
-    <div id="footer-content" class="text-white">
+
+    <!-- Footer -->
+    <section id="footer-content" class="page-footer font-small mdb-color pt-4">
       <div class="color-overlay">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4 text-left p-5">
-              <h3>Mostly e-Bikes</h3>
+        <div class="container text-center text-md-left">
+          <div class="row text-center text-md-left mt-3 pb-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h5 class="text-uppercase mb-2 font-weight-bold logo">Mostly e-Bikes</h5>
               <div class="">
                 203 Wisconsin Ave.
                 <br>
                 Oceanside, CA 92054
               </div>
               <div>
-                <a href="tel:14422668137">(442) 266-8137</a>
-              </div>
-              <p>Hours: 10:00am to 6:00pm Everyday</p>
-            </div>
-            <div class="col-md-4 text-left pt-5 pb-5 pl-5 pr-0 mt-2">
-              <h4>Services</h4>
-              <div>
-                <a href="#">e-Bike Sales</a>
-              </div>
-              <div>
-                <a href="#">Pedal Bike Sales</a>
-              </div>
-              <div>
-                <a href="#">Rentals</a>
-              </div>
-              <div>
-                <a href="#">Service & Repair</a>
+                <a class="text-white" href="tel:14422668137">(442) 266-8137</a>
               </div>
             </div>
-            <div class="col-md-4 text-left py-5 pr-5 mt-2">
-              <h4 class="">Brands</h4>
-              <div class="row">
-                <div class="col-4">
-                  <div>
-                    <a href="#">Electra</a>
-                  </div>
-                  <div>
-                    <a href="#">Tern</a>
-                  </div>
-                  <div>
-                    <a href="#">Gazelle</a>
-                  </div>
-                  <div>
-                    <a href="#">Surly</a>
-                  </div>
+            <!-- Grid column -->
+            <hr class="w-100 clearfix d-md-none">
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Services</h6>
+              <p>
+                <a class="text-white" href="#!">e-Bike Sales</a>
+              </p>
+              <p>
+                <a class="text-white" href="#!">Pedal Bike Sales</a>
+              </p>
+              <p>
+                <a class="text-white" href="#!">Rentals</a>
+              </p>
+              <p>
+                <a class="text-white" href="#!">Service & Repair</a>
+              </p>
+            </div>
+            <hr class="w-100 clearfix d-md-none">
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Brands</h6>
+              <div class="d-flex jusify-content-center">
+                <div class="col-6 pl-0 pr-5">
+                  <p>
+                    <a class="text-white" href="#!">Electra</a>
+                  </p>
+                  <p>
+                    <a class="text-white" href="#!">TERN</a>
+                  </p>
+                  <p>
+                    <a class="text-white" href="#!">Gazelle</a>
+                  </p>
+                  <p>
+                    <a class="text-white" href="#!">Surly</a>
+                  </p>
                 </div>
-                <div class="col-4">
-                  <div>
-                    <a href="#">HaiBike</a>
-                  </div>
-                  <div>
-                    <a href="#">Raleigh</a>
-                  </div>
-                  <div>
-                    <a href="#">iZip</a>
-                  </div>
+                <div class="col-6 pl-0 pr-2">
+                  <p>
+                    <a class="text-white" href="#!">HaiBike</a>
+                  </p>
+                  <p>
+                    <a class="text-white" href="#!">Raleigh</a>
+                  </p>
+                  <p>
+                    <a class="text-white" href="#!">iZip</a>
+                  </p>
+                  <p>
+                    <a class="text-white" href="#!">Civia</a>
+                  </p>
                 </div>
               </div>
             </div>
+            <hr class="w-100 clearfix d-md-none">
           </div>
-          <div class="row">
-            <div class="col">
-              <p>Copyright &copy; <span id="year"></span> Mostly e-Bikes</p>
-            </div>
+          <div class="row d-flex justify-content-center">
+            <p class="text-center">
+              Copyright &copy; <span id="year"></span> Mostly e-Bikes
+            </p>
           </div>
         </div>
       </div>
-    </div>
+    </section>
+
   </footer>
 
 
