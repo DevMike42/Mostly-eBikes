@@ -6,14 +6,6 @@
   width: 1.5rem;
 }
 
-#sales {
-  /* width: 100%; */
-}
-
-#footer-content {
-  height: 100vh;
-}
-
 #footer-logo-banner .footer-banner-content h1 {
   font-size: 1.5rem;
 }
@@ -22,8 +14,11 @@
   width: 2rem;
 }
 
+#footer-content {
+  height: 90vh;
+}
 
-@media(max-width: 500px) {
+@media (max-width: 500px) {
   #nav-main .logo {
     font-size: 1.8rem;
   }
@@ -44,27 +39,6 @@
     font-size: 2rem;
   }
 
-  #home-info h1 {
-    font-size: 2rem;
-  }
-
-  #home-info p {
-    font-size: 1.2rem;
-  }
-
-  #home-info .box-sub-heading .lead {
-    font-size: 1.4rem;
-  }
-
-  #home-info #rentals-left .box-content h4 {
-    font-size: 1.25rem;
-  }
-
-  #home-info
-  #service-right .box-content h3 {
-    /* font-size: .5rem; */
-  }
-
   .banner-heading {
     height: 10vh;
   }
@@ -72,13 +46,58 @@
   .banner-heading .banner-content h1 {
     font-size: 1.3rem;
   }
-  
+
   .banner-heading .banner-content .hline {
     width: 1.5rem;
   }
 
-  #home-about-ebikes .about-ebikes-content #ebike-questions h4 {
+  #sales-left .sales-left-content h1 {
+    font-size: 2.5rem;
+  }
+
+  #sales-left .sales-left-content p {
+    font-size: 1.5rem;
+  }
+
+  #sales-right .sales-right-content {
+    font-size: 1.25rem;
+  }
+
+  #rentals-right .rentals-right-content h1 {
+    font-size: 2.5rem;
+  }
+
+  #rentals-right .rentals-right-content p {
+    font-size: 1.5rem;
+  }
+
+  #service-left .service-left-content h1 {
+    font-size: 2rem;
+  }
+
+  #service-left .service-left-content p {
+    font-size: 1.5rem;
+  }
+
+  .service-left-content {
+    padding: 0.75rem !important;
+  }
+
+  #service-right .service-right-content h1 {
+    font-size: 2rem !important;
+  }
+
+  #service-right .service-right-content h3 {
+    font-size: 1.5rem !important;
+  }
+
+  #about-ebikes .about-ebikes-content #ebike-questions h1,
+  #about-ebikes .about-ebikes-content #ebike-questions h4 {
     font-size: 1rem;
+  }
+
+  #about-ebikes .about-ebikes-content {
+    margin-left: 0 !important;
   }
 
   #testimonials p {
@@ -86,8 +105,6 @@
   }
 
   #footer-content {
-    height: 100vh;
+    height: 90vh;
   }
-
-
 }
