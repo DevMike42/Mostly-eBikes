@@ -1,4 +1,3 @@
-
 /* ================================== */
 /* NAVBAR */
 #nav-main {
@@ -15,7 +14,7 @@
 #showcase {
   height: 90vh;
   width: 100%;
-} 
+}
 
 #showcase .showcase-img {
   position: relative;
@@ -27,7 +26,7 @@
 
 #showcase #showcase-item-1 {
   background: url('../img/showcase-1.jpg');
-  background-position: bottom;
+  background-position: center;
 }
 
 #showcase #showcase-item-2 {
@@ -47,17 +46,13 @@
 
 #showcase #showcase-main-text {
   position: absolute;
-  bottom: 5rem;
+  top: 7rem;
   width: 100%;
   color: #fff;
 }
 
 /* ================================== */
-/* HOME INFO */
-
-/* #home-info .row {
-  height: 70vh;
-} */
+/* Sales */
 
 #sales-left,
 #sales-right,
@@ -66,73 +61,97 @@
 #service-left,
 #service-right {
   height: 70vh;
+  width: 100%;
 }
 
-#home-info .box-icon i {
-  font-size: 5rem;
+#sales-left #img-sales {
+  position: relative;
+  background: url('../img/home-sales.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
 }
 
-#home-info h1 {
+#sales-left .sales-left-content h1 {
   font-size: 3.5rem;
 }
 
-#home-info .lead {
-  font-size: 1.7rem;
+#sales-left .sales-left-content p {
+  font-size: 1.5rem;
 }
 
-#home-info p {
-  font-size: 1.4rem;
+#sales-right .sales-right-content {
+  height: 70vh;
+  font-size: 1.5rem;
 }
 
-#home-info .box-sub-heading span {
-  text-transform: uppercase;
-  font-weight: bolder;
-}
+/* ================================== */
+/* Rentals */
 
-
-#home-info #img-sales {
+#rentals-left {
   position: relative;
-  background: url('../img/home-sales.jpg');
+  background: url('../img/map-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 70vh;
+  width: 100%;
+}
+
+#rentals-right #img-rentals {
+  position: relative;
+  background: url('../img/rentals-home.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 100%;
+}
+
+#rentals-right .rentals-right-content h1 {
+  font-size: 3.5rem;
+}
+
+#rentals-right .rentals-right-content p {
+  font-size: 2rem;
+}
+
+/* ================================== */
+/* SERVICE */
+
+#service-left #img-service {
+  position: relative;
+  background: url('../img/repair-home.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
 }
 
-#home-info #rentals-left {
-  /* position: relative; */
-  /* background: url('../img/map-bg.jpg'); */
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
-  /* background-attachment: fixed; */
-  /* height: 100%; */
-  /* width: 100%; */
+#service-left .service-left-content h1 {
+  font-size: 3rem;
 }
 
-#home-info #img-rentals {
-  position: relative;
-  background: url('../img/rentals-home.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
+#service-left .service-left-content p {
+  font-size: 2rem;
 }
 
-#home-info #img-service {
-  position: relative;
-  background: url('../img/repair-home.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
+#service-right .service-right-content {
+  height: 70vh;
+  font-size: 1.5rem;
 }
 
-#home-about-ebikes {
+/* ================================== */
+/* ABOUT e-BIKES */
+#about-ebikes {
   position: relative;
   background: url('../img/home-about-ebikes.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /* height: 100%; */
-  min-height: 500px;
+  height: 50vh;
+  /* min-height: 500px; */
 }
 
 .row-hl {
@@ -150,16 +169,12 @@
   font-size: 1rem;
 }
 
-.rating  i {
+.rating i {
   text-shadow: 0 0 3px #000;
 }
 
 /* ================================== */
 /* FOOTER */
-
-#footer-logo-banner  h1 {
-  /* font-family: 'Righteous', cursive; */
-}
 
 #footer-logo-banner .hline {
   width: 200px;
@@ -169,7 +184,8 @@
 
 #footer-content {
   position: relative;
-  height: 45vh;
+  height: 35vh;
+  width: 100%;
   background: url('../img/map-bg.jpg');
   background-position: top;
   background-size: contain;
@@ -194,4 +210,5 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 70px;
+  width: 100%;
 }

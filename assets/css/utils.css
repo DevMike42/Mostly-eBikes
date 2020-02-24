@@ -1,10 +1,15 @@
 :root {
-  --main-color: #18B8E8;
+  --main-color: #18b8e8;
   --main-color-dark: #085972;
-  --secondary-color: #DDDACE;
+  --secondary-color: #dddace;
 }
 
-body, html {
+body {
+  width: 100%;
+}
+
+body,
+html {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -73,11 +78,7 @@ ul li {
 }
 
 .banner-heading .hline {
-  width: 100px;
+  width: 20%;
   height: 2px;
   background: #fff;
-}
-
-.box-content {
-  height: 100%;
 }
