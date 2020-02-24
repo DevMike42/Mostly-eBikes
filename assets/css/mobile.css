@@ -39,6 +39,13 @@
     font-size: 2rem;
   }
 
+  #showcase #showcase-main-text {
+    position: absolute;
+    top: 25rem;
+    width: 100%;
+    color: #fff;
+  }
+
   .banner-heading {
     height: 10vh;
   }
