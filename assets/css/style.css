@@ -1,7 +1,7 @@
 /* ================================== */
 /* NAVBAR */
 #nav-main {
-  height: 10vh;
+  /* height: 10vh; */
 }
 
 #nav-main .logo {
@@ -194,6 +194,9 @@
   color: #fff;
 }
 
+/* ================================== */
+/* SERVICE PAGE */
+
 #service-showcase {
   position: relative;
   background: url('../img/service-showcase.jpg');
@@ -202,7 +205,7 @@
   height: 55vh;
 }
 
-#service-packages .tune-card .card-header {
+.tune-card .card-header {
   position: relative;
   background: url('../img/map-bg.jpg');
   background-size: contain;
@@ -211,4 +214,14 @@
   background-attachment: fixed;
   height: 70px;
   width: 100%;
+}
+
+/* ================================== */
+/* RENTALS PAGE */
+#rentals-showcase {
+  position: relative;
+  background: url('../img/rentals-showcase.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 55vh;
 }
