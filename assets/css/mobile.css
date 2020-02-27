@@ -178,6 +178,14 @@
     font-size: 1rem !important;
   }
 
+  #rentals-heading h1 {
+    font-size: 3.5rem !important;
+  }
+
+  #service-heading h1 {
+    font-size: 3.5rem !important;
+  }
+
   #footer-content {
     height: 100vh;
   }
