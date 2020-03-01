@@ -225,3 +225,100 @@
   background-position: center;
   height: 55vh;
 }
+
+@media (max-height: 580px) {
+  .banner-heading .banner-content h1 {
+    font-size: 1.5rem !important;
+  }
+
+  #sales-left,
+  #sales-right,
+  #rentals-left,
+  #rentals-right,
+  #service-left,
+  #service-right {
+    height: 100vh;
+  }
+
+  #sales-left .sales-left-content h1 {
+    font-size: 2rem;
+  }
+
+  .sales-right-content {
+    height: 100% !important;
+  }
+
+  .rentals-left-content {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .rentals-left-content h1 {
+    font-size: 2rem !important;
+    margin-bottom: 3px !important;
+  }
+
+  .rentals-left-content h2 {
+    font-size: 1.5rem !important;
+  }
+
+  .rentals-left-content h4 {
+    font-size: 1rem !important;
+  }
+
+  #img-rentals {
+    height: 100% !important;
+  }
+
+  .rentals-right-content h1 {
+    font-size: 1.75rem !important;
+  }
+
+  .rentals-right-content p {
+    font-size: 1.25rem !important;
+  }
+
+  .rentals-right-content a {
+    font-size: 0.75rem !important;
+  }
+
+  .service-left-content h1 {
+    font-size: 1.5rem !important;
+  }
+
+  .service-left-content p {
+    font-size: 1.25rem !important;
+  }
+
+  .service-left-content a {
+    font-size: 0.75rem !important;
+  }
+
+  .service-right-content {
+    height: 100% !important;
+  }
+
+  .box-icon {
+    font-size: 1rem;
+  }
+
+  .box-heading h1 {
+    font-size: 2rem;
+  }
+
+  .box-sub-heading h3 {
+    font-size: 1rem;
+  }
+
+  #about-ebikes {
+    height: 100vh;
+  }
+
+  #footer-content {
+    height: 100vh;
+  }
+
+  #footer-col-middle {
+    min-width: 25%;
+  }
+}
