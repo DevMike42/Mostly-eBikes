@@ -25,46 +25,7 @@
 
   #showcase,
   #showcase .showcase-img {
-    height: 60vh;
-  }
-
-  #showcase #showcase-item-1 {
-    background: url('../img/showcase-1-mobile.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  #showcase #showcase-item-2 {
-    background: url('../img/showcase-2-mobile.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  #showcase #showcase-item-3 {
-    background: url('../img/showcase-3-mobile.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  #showcase #showcase-item-4 {
-    background: url('../img/showcase-4-mobile.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  #showcase #showcase-main-text h1 {
-    font-size: 2rem;
-  }
-
-  #showcase #showcase-main-text {
-    position: absolute;
-    top: 23rem;
-    width: 100%;
-    color: #fff;
+    height: 100%;
   }
 
   .banner-heading {
@@ -77,6 +38,20 @@
 
   .banner-heading .banner-content .hline {
     width: 1.5rem;
+  }
+
+  #sales-left,
+  #sales-right,
+  #rentals-left,
+  #rentals-right,
+  #service-left,
+  #service-right {
+    height: 50vh;
+    /* width: 100%; */
+  }
+
+  #sales-right .sales-right-content {
+    height: 50vh;
   }
 
   #sales-left .sales-left-content {
@@ -102,7 +77,12 @@
   }
 
   #sales-right .sales-right-content {
-    font-size: 1.25rem;
+    font-size: 1rem;
+  }
+
+  .rentals-left-content {
+    padding: 0.5rem !important;
+    height: 50vh;
   }
 
   #rentals-left .rentals-left-content h1 {
@@ -110,14 +90,11 @@
   }
 
   #rentals-left .rentals-left-content h2 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
 
   #rentals-left .rentals-left-content h4 {
-    font-size: 1.25rem;
-  }
-  #rentals-left .rentals-left-content h2 {
-    font-size: 1.75rem;
+    font-size: 1rem;
   }
 
   #rentals-right .rentals-right-content {
@@ -129,7 +106,7 @@
     background: url('../img/rentals-mobile.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 70vh;
+    height: 50vh;
     width: 100%;
   }
 
@@ -153,12 +130,24 @@
     padding: 0.75rem !important;
   }
 
+  #service-right .service-right-content {
+    height: 50vh;
+  }
+
+  #service-right .box-icon {
+    font-size: 1rem !important;
+  }
+
+  #service-right .box-sub-heading {
+    padding: 0.5rem !important;
+  }
+
   #service-right .service-right-content h1 {
     font-size: 2rem !important;
   }
 
   #service-right .service-right-content h3 {
-    font-size: 1.5rem !important;
+    font-size: 1.25rem !important;
   }
 
   #about-ebikes .about-ebikes-content #ebike-questions h1,
@@ -184,6 +173,14 @@
 
   #service-heading h1 {
     font-size: 3.5rem !important;
+  }
+
+  .display-3 {
+    font-size: 3rem;
+  }
+
+  .lead {
+    font-size: 1rem;
   }
 
   #footer-content {
