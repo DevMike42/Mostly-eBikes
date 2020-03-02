@@ -16,23 +16,21 @@
   <link rel="stylesheet" href="assets/css/utils.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" media="screen and (max-width: 768px)" href="assets/css/mobile.css">
-  <link rel="stylesheet" media="screen and (min-width: 1100px)" href="assets/css/widescreen.css">
-  <!-- <link rel="stylesheet" href="assets/css/mobile.css"> -->
-  <title>Mostly e-Bikes | Home</title>
+  <title>Mostly e-Bikes | Rentals</title>
 </head>
 
 <body>
   <!-- NAVBAR -->
-  <nav id="nav-main" class="navbar navbar-expand-lg navbar-dark bg-main-color">
+  <nav id="nav-main" class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-      <a href="#" class="navbar-brand logo">
-        Mostly e-Bikes
-      </a>
+      <div id="logo-nav" class="p-3">
+        <img src="./assets/img/logo.png" alt="logo">
+      </div>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div id="navbarCollapse" class="collapse navbar-collapse">
-        <ul class="navbar-nav ml-auto">
+      <div id="navbarCollapse" class="collapse navbar-collapse w-75">
+        <ul class="navbar-nav d-flex align-items-center ml-auto">
           <li class="nav-item">
             <a href="index.html" class="nav-link px-4">Home</a>
           </li>
@@ -55,22 +53,15 @@
 
   <!-- RENTALS SHOWCASE -->
   <section id="rentals-showcase">
-    <div class="dark-overlay d-flex align-items-center">
-      <div class="container">
-        <div id="rentals-showcase-content" class="">
-          <div id="rentals-heading" class="text-center text-white">
-            <h1 class="display-3">
-              Rental Rates
-            </h1>
-          </div>
-        </div>
-      </div>
-    </div>
+    <img id="rentals-showcase-img" src="./assets/img/rentals-showcase-1.jpg" alt="rentals-showcase" class="img-fluid">
   </section>
 
   <!-- SERVICE PACKAGES SECTION -->
   <section id="rental-rates" class="py-5">
     <div class="container">
+      <div class="text-center mb-5">
+        <h1 class="display-3">Rental Rates</h1>
+      </div>
       <div class="row">
         <div class="col-md-4 mb-5">
           <div class="card tune-card text-center">
@@ -83,7 +74,7 @@
               Most Common
             </div>
             <div class="card-footer">
-              <div class="d-flex justify-content-between px-5">
+              <div class="d-flex justify-content-between pt-2 px-5">
                 <h5 class="cart-text">e-Bike</h5>
                 <h5 class="cart-text">$45</h5>
               </div>
@@ -100,7 +91,6 @@
             </div>
           </div>
         </div>
-
         <div class="col-md-4 mb-5">
           <div class="card tune-card text-center">
             <div class="card-header text-white border">
@@ -112,7 +102,7 @@
               24 hours
             </div>
             <div class="card-footer">
-              <div class="d-flex justify-content-between px-5">
+              <div class="d-flex justify-content-between pt-2 px-5">
                 <h5 class="cart-text">e-Bike</h5>
                 <h5 class="cart-text">$70</h5>
               </div>
@@ -129,7 +119,6 @@
             </div>
           </div>
         </div>
-
         <div class="col-md-4 mb-5">
           <div class="card tune-card text-center">
             <div class="card-header text-white border">
@@ -141,7 +130,7 @@
               7 Days
             </div>
             <div class="card-footer">
-              <div class="d-flex justify-content-between px-5">
+              <div class="d-flex justify-content-between pt-2 px-5">
                 <h5 class="cart-text">e-Bike</h5>
                 <h5 class="cart-text">$295</h5>
               </div>
@@ -159,39 +148,40 @@
           </div>
         </div>
       </div>
-
       <div id="rentals-fine-print" class="text-center py-4 text-main">
         <p class="lead m-auto font-italic">* All bike rentals include free helmet rental</p>
         <br>
         <p class="lead m-auto font-italic">** Purchase an electric bike from us within 30 days of rental date and your
           entire rental fee will be applied to your bike purchase</p>
       </div>
-
     </div>
-
-    <!-- <div class="d-flex justify-content-center">
-      <a href="#" class="btn btn-lg btn-main-color">Reserve</a>
-    </!-->
-
   </section>
 
 
 
   <!-- Footer -->
-  <section id="footer-content" class="page-footer font-small mdb-color pt-4">
-    <div class="color-overlay">
+  <footer id="footer-main">
+    <section id="footer-content" class="bg-light border-top border-secondary page-footer font-small mdb-color pt-4">
       <div class="container text-center text-md-left">
         <div class="row text-center text-md-left mt-3 pb-3">
           <!-- Grid column -->
           <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h5 class="mb-3 font-weight-bold logo">Mostly e-Bikes</h5>
+            <div class="pb-2">
+              <img id="logo-footer" src="./assets/img/logo.png" alt="logo">
+            </div>
             <div class="">
               203 Wisconsin Ave.
               <br>
               Oceanside, CA 92054
             </div>
             <div>
-              <a class="text-white" href="tel:14422668137">(442) 266-8137</a>
+              <a class="" href="tel:14422668137">(442) 266-8137</a>
+            </div>
+            <br>
+            <div>
+              Hours
+              <br>
+              10:00am to 6:00pm | 7 Days a week
             </div>
           </div>
           <!-- Grid column -->
@@ -200,16 +190,16 @@
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
             <h6 class="text-uppercase mb-4 font-weight-bold">Services</h6>
             <p>
-              <a class="text-white" href="#!">e-Bike Sales</a>
+              <a class="" href="#!">e-Bike Sales</a>
             </p>
             <p>
-              <a class="text-white" href="#!">Pedal Bike Sales</a>
+              <a class="" href="#!">Pedal Bike Sales</a>
             </p>
             <p>
-              <a class="text-white" href="rentals.html">Rentals</a>
+              <a class="" href="rentals.html">Rentals</a>
             </p>
             <p>
-              <a class="text-white" href="service.html">Service & Repair</a>
+              <a class="" href="service.html">Service & Repair</a>
             </p>
           </div>
           <hr class="w-100 clearfix d-md-none">
@@ -218,30 +208,30 @@
             <div class="d-flex jusify-content-center">
               <div class="col-6 pl-0 pr-5">
                 <p>
-                  <a class="text-white" href="https://www.electrabike.com/" target="_blank">Electra</a>
+                  <a class="" href="https://www.electrabike.com/" target="_blank">Electra</a>
                 </p>
                 <p>
-                  <a class="text-white" href="https://www.ternbicycles.com/us/" target="_blank">TERN</a>
+                  <a class="" href="https://www.ternbicycles.com/us/" target="_blank">TERN</a>
                 </p>
                 <p>
-                  <a class="text-white" href="https://www.gazellebikes.com/" target="_blank">Gazelle</a>
+                  <a class="" href="https://www.gazellebikes.com/" target="_blank">Gazelle</a>
                 </p>
                 <p>
-                  <a class="text-white" href="https://surlybikes.com/" target="_blank">Surly</a>
+                  <a class="" href="https://surlybikes.com/" target="_blank">Surly</a>
                 </p>
               </div>
               <div class="col-6 pl-0 pr-2">
                 <p>
-                  <a class="text-white" href="https://www.haibikeusa.com/" target="_blank">HaiBike</a>
+                  <a class="" href="https://www.haibikeusa.com/" target="_blank">HaiBike</a>
                 </p>
                 <p>
-                  <a class="text-white" href="https://www.raleighusa.com/" target="_blank">Raleigh</a>
+                  <a class="" href="https://www.raleighusa.com/" target="_blank">Raleigh</a>
                 </p>
                 <p>
-                  <a class="text-white" href="https://www.izipelectric.com/" target="_blank">iZip</a>
+                  <a class="" href="https://www.izipelectric.com/" target="_blank">iZip</a>
                 </p>
                 <p>
-                  <a class="text-white" href="https://civiacycles.com/" target="_blank">Civia</a>
+                  <a class="" href="https://civiacycles.com/" target="_blank">Civia</a>
                 </p>
               </div>
             </div>
@@ -254,13 +244,8 @@
           </p>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
   </footer>
-
-
-
-
 
   <!-- JQuery (Full Version / Minified) -->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"

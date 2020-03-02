@@ -1,54 +1,25 @@
 /* ================================== */
 /* NAVBAR */
-#nav-main {
-  /* height: 10vh; */
-}
 
-#nav-main .logo {
-  font-size: 3rem;
+#logo-nav img {
+  height: 5vh;
 }
 
 /* ================================== */
 /* SHOWCASE */
 
 #showcase {
-  height: 90vh;
+  height: 65vh;
   width: 100%;
+}
+
+#logo-banner-main {
+  height: 25vh;
 }
 
 #showcase .showcase-img {
-  position: relative;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 90vh;
+  height: 65vh;
   width: 100%;
-}
-
-#showcase #showcase-item-1 {
-  background: url('../img/showcase-1.jpg');
-  background-position: center;
-}
-
-#showcase #showcase-item-2 {
-  background: url('../img/showcase-2.jpg');
-  background-position: center;
-}
-
-#showcase #showcase-item-3 {
-  background: url('../img/showcase-3.jpg');
-  background-position: center;
-}
-
-#showcase #showcase-item-4 {
-  background: url('../img/showcase-4.jpg');
-  background-position: center;
-}
-
-#showcase #showcase-main-text {
-  position: absolute;
-  top: 7rem;
-  width: 100%;
-  color: #fff;
 }
 
 /* ================================== */
@@ -144,6 +115,7 @@
 
 /* ================================== */
 /* ABOUT e-BIKES */
+
 #about-ebikes {
   position: relative;
   background: url('../img/home-about-ebikes.jpg');
@@ -151,7 +123,6 @@
   background-repeat: no-repeat;
   background-position: center;
   height: 50vh;
-  /* min-height: 500px; */
 }
 
 .row-hl {
@@ -176,34 +147,12 @@
 /* ================================== */
 /* FOOTER */
 
-#footer-logo-banner .hline {
-  width: 200px;
-  height: 2px;
-  background: #6c757d;
-}
-
-#footer-content {
-  position: relative;
-  height: 35vh;
-  width: 100%;
-  background: url('../img/map-bg.jpg');
-  background-position: top;
-  background-size: contain;
-  background-attachment: fixed;
-  text-align: center;
-  color: #fff;
+#logo-footer {
+  height: 2.5rem;
 }
 
 /* ================================== */
 /* SERVICE PAGE */
-
-#service-showcase {
-  position: relative;
-  background: url('../img/service-showcase.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 55vh;
-}
 
 .tune-card .card-header {
   position: relative;
@@ -218,13 +167,9 @@
 
 /* ================================== */
 /* RENTALS PAGE */
-#rentals-showcase {
-  position: relative;
-  background: url('../img/rentals-showcase.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 55vh;
-}
+
+/* ================================== */
+/* LANDSCAPE PHONES */
 
 @media (max-height: 580px) {
   .banner-heading .banner-content h1 {

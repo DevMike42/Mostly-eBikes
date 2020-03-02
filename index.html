@@ -2,6 +2,11 @@
 <html lang="en">
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145138474-1"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Righteous|Roboto&display=swap" rel="stylesheet">
   <!-- Font Awesome -->
@@ -13,26 +18,21 @@
   <link rel="stylesheet" href="assets/css/utils.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" media="screen and (max-width: 768px)" href="assets/css/mobile.css">
-  <link rel="stylesheet" media="screen and (min-height: 500px)" href="assets/css/widescreen.css">
-  <!-- <link rel="stylesheet" href="assets/css/mobile.css"> -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Mostly e-Bikes | Home</title>
 </head>
 
 <body>
   <!-- NAVBAR -->
-  <nav id="nav-main" class="navbar navbar-expand-lg navbar-dark bg-main-color">
+  <nav id="nav-main" class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-      <a href="#" class="navbar-brand logo">
-        Mostly e-Bikes
-      </a>
+      <div id="logo-nav" class="p-3">
+        <img src="./assets/img/logo.png" alt="logo">
+      </div>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div id="navbarCollapse" class="collapse navbar-collapse">
-        <ul class="navbar-nav ml-auto">
+      <div id="navbarCollapse" class="collapse navbar-collapse w-75">
+        <ul class="navbar-nav d-flex align-items-center ml-auto">
           <li class="nav-item">
             <a href="index.html" class="nav-link px-4 active">Home</a>
           </li>
@@ -64,20 +64,19 @@
       </ol>
       <div class="carousel-inner">
         <div id="showcase-item-1" class="carousel-item showcase-img active">
-          <div class="dark-overlay">
-          </div>
+          <img class="d-block img-fluid" src="./assets/img/showcase-1.jpg" alt="showcase-1">
         </div>
         <div id="showcase-item-2" class="carousel-item showcase-img">
-          <div class="dark-overlay">
-          </div>
+          <img class="d-block img-fluid" src="./assets/img/showcase-2.jpg" alt="showcase-1">
         </div>
         <div id="showcase-item-3" class="carousel-item showcase-img">
-          <div class="dark-overlay">
-          </div>
+          <img class="d-block img-fluid" src="./assets/img/showcase-3.jpg" alt="showcase-1">
         </div>
-        <div id="showcase-item-4" class="carousel-item showcase-img">
-          <div class="dark-overlay">
-          </div>
+        <div class="carousel-item showcase-img">
+          <img id="showcase-img-4" class="showcase-img-4 d-block img-fluid" src="./assets/img/showcase-4.jpg"
+            alt="showcase-1">
+          <!-- <img id="showcase-img-4-mobile" class="showcase-img-4-mobile d-block img-fluid"
+            src="./assets/img/showcase-4-mobile.jpg" alt="showcase-1"> -->
         </div>
       </div>
       <a href="#showcaseCarousel" class="carousel-control-prev" data-slide="prev">
@@ -87,9 +86,14 @@
         <span class="carousel-control-next-icon"></span>
       </a>
     </div>
-    <div id="showcase-main-text" class="text-center">
-      <h1 class="logo display-3">Mostly e-Bikes</h1>
-      <p class="lead font-italic">North County San Diego's premier electric bikeshop</p>
+  </section>
+
+  <section id="logo-banner-main" class="bg-light">
+    <div class="row">
+      <div class="col-md-6 m-auto text-center p-4">
+        <img id="logo-main" class="img-fluid w-75" src="./assets/img/logo.png" alt="logo">
+        <p class="lead font-italic text-dark">North County San Diego's premier electric bikeshop</p>
+      </div>
     </div>
   </section>
 
@@ -126,7 +130,7 @@
       </div>
     </div>
     <div id="sales-right" class="col-xs-12 col-md-6 p-0">
-      <div class="sales-right-content d-flex align-items-center bg-secondary-color text-secondary-color">
+      <div class="sales-right-content d-flex align-items-center bg-light text-dark">
         <div class="p-4 m-auto">
           <div class="box-icon text-center">
             <i class="fas fa-bicycle fa-3x"></i>
@@ -150,6 +154,7 @@
             <p class="d-inline-block px-3">HaiBike</p>
             <p class="d-inline-block px-3">Raleigh</p>
             <p class="d-inline-block px-3">iZip</p>
+            <p class="d-inline-block px-3">Civia</p>
           </div>
         </div>
       </div>
@@ -158,46 +163,8 @@
 
   <!-- SECTION - RENTALS -->
   <div id="rentals" class="row m-0">
-    <div id="rentals-left" class="col-xs-12 col-md-6 px-0">
-      <div class="color-overlay d-flex align-items-center  text-white">
-        <div class="rentals-left-content p-5 mx-auto w-100">
-          <div class="box-icon text-center mt-2">
-            <i class="fas fa-handshake fa-3x"></i>
-          </div>
-          <h1 class="text-center mx-auto mb-4">Rental Rates</h1>
-          <div class="w-75 mx-auto">
-            <h2 class="text-center">e-Bike</h2>
-            <div class="d-flex justify-content-between">
-              <h4>2 Hours</h4>
-              <h4>$45</h4>
-            </div>
-            <div class="d-flex justify-content-between">
-              <h4>1 Day (24Hours)</h4>
-              <h4>$70</h4>
-            </div>
-            <div class="d-flex justify-content-between">
-              <h4>1 Week</h4>
-              <h4>$295</h4>
-            </div>
-            <hr>
-            <h2 class="text-center">Pedal Bike</h2>
-            <div class="d-flex justify-content-between">
-              <h4>2 Hours</h4>
-              <h4>$30</h4>
-            </div>
-            <div class="d-flex justify-content-between">
-              <h4>1 Day (24Hours)</h4>
-              <h4>$40</h4>
-            </div>
-            <div class="d-flex justify-content-between">
-              <h4>1 Week</h4>
-              <h4>$185</h4>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="rentals-right" class="col-xs-12 col-md-6 p-0">
+
+    <div id="rentals-right" class="col-xs-12 col-md-6 order-md-12 p-0">
       <div id="img-rentals">
         <div class="dark-overlay d-flex align-items-center">
           <div class="rentals-right-content p-5 text-white">
@@ -215,6 +182,47 @@
         </div>
       </div>
     </div>
+
+    <div id="rentals-left" class="col-xs-12 col-md-6 order-md-1 px-0">
+      <div class="color-overlay d-flex align-items-center  text-white">
+        <div class="rentals-left-content p-5 mx-auto w-100">
+          <div class="box-icon text-center mt-2">
+            <i class="fas fa-handshake fa-3x"></i>
+          </div>
+          <h1 class="text-center mx-auto mb-4">Rental Rates</h1>
+          <div class="w-75 mx-auto">
+            <h2 class="text-center">e-Bike</h2>
+            <div class="d-flex justify-content-between">
+              <h4>2 Hours</h4>
+              <h4>$45</h4>
+            </div>
+            <div class="d-flex justify-content-between">
+              <h4>1 Day (24 Hours)</h4>
+              <h4>$70</h4>
+            </div>
+            <div class="d-flex justify-content-between">
+              <h4>1 Week</h4>
+              <h4>$295</h4>
+            </div>
+            <hr>
+            <h2 class="text-center">Pedal Bike</h2>
+            <div class="d-flex justify-content-between">
+              <h4>2 Hours</h4>
+              <h4>$30</h4>
+            </div>
+            <div class="d-flex justify-content-between">
+              <h4>1 Day (24 Hours)</h4>
+              <h4>$40</h4>
+            </div>
+            <div class="d-flex justify-content-between">
+              <h4>1 Week</h4>
+              <h4>$185</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
 
   <!-- SECTION - SERVICE -->
@@ -237,7 +245,7 @@
       </div>
     </div>
     <div id="service-right" class="col-xs-12 col-md-6 p-0">
-      <div class="service-right-content d-flex align-items-center bg-secondary-color text-secondary-color">
+      <div class="service-right-content d-flex align-items-center bg-light text-dark">
         <div class="p-4 m-auto">
           <div class="box-icon text-center">
             <i class="fas fa-tools fa-3x"></i>
@@ -276,9 +284,9 @@
   </section>
 
   <!-- Testimonials -->
-  <section id="testimonials" class="bg-secondary-color pb-5">
+  <section id="testimonials" class="bg-white pb-5">
     <div class="container">
-      <div id="testimonials-heading" class="text-center text-secondary-color py-5">
+      <div id="testimonials-heading" class="text-center text-dark py-5">
         <hr>
         <h1>Testimonials</h1>
         <hr>
@@ -292,7 +300,7 @@
             <i class="fas fa-star pl-2"></i>
             <i class="fas fa-star pl-2"></i>
           </div>
-          <div class="testimonial-body text-secondary-color">
+          <div class="testimonial-body text-dark">
             <p><i class="fas fa-quote-left"></i> Great shop, excellent products and large selection of bikes.
               George and
               his staff are both knowledgeable
@@ -314,7 +322,7 @@
             <i class="fas fa-star pl-2"></i>
             <i class="fas fa-star pl-2"></i>
           </div>
-          <div class="testimonial-body text-secondary-color">
+          <div class="testimonial-body text-dark">
             <p><i class="fas fa-quote-left"></i> I recently bought two Rad Mini e-bikes to celebrate the retirements
               of
               my wife and I. I asked the crew at Rad Bikes in Seattle, from whom I ordered the bikes, for a
@@ -342,7 +350,7 @@
             <i class="fas fa-star pl-2"></i>
             <i class="fas fa-star pl-2"></i>
           </div>
-          <div class="testimonial-body text-secondary-color">
+          <div class="testimonial-body text-dark">
             <p><i class="fas fa-quote-left"></i> In addition to performing a quality major maintenance job on my bike,
               George and his staff have generously given me tips on daily maintenance and riding safety. As a novice
               bike rider, I truly appreciate having this business and their services available. And it’s right there
@@ -355,97 +363,95 @@
     </div>
   </section>
 
+
+
   <!-- FOOTER -->
   <footer id="footer-main">
-    <div id="footer-logo-banner" class="bg-secondary-color border-top border-secondary">
-      <div class="footer-banner-content d-flex justify-content-center text-secondary-color">
-        <div class="hline my-auto mx-3"></div>
-        <h1 class="logo py-4">Mostly e-Bikes</h1>
-        <div class="hline my-auto mx-3"></div>
-      </div>
-    </div>
-
-    <!-- Footer -->
-    <section id="footer-content" class="page-footer font-small mdb-color pt-4">
-      <div class="color-overlay">
-        <div class="container text-center text-md-left">
-          <div class="row text-center text-md-left mt-3 pb-3">
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-              <h5 class="mb-3 font-weight-bold logo">Mostly e-Bikes</h5>
-              <div class="">
-                203 Wisconsin Ave.
-                <br>
-                Oceanside, CA 92054
-              </div>
-              <div>
-                <a class="text-white" href="tel:14422668137">(442) 266-8137</a>
-              </div>
+    <section id="footer-content" class="bg-light border-top border-secondary page-footer font-small mdb-color pt-4">
+      <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left mt-3 pb-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <div class="pb-2">
+              <img id="logo-footer" src="./assets/img/logo.png" alt="logo">
             </div>
-            <!-- Grid column -->
-            <hr class="w-100 clearfix d-md-none">
-            <!-- Grid column -->
-            <div id="footer-col-middle" class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h6 class="text-uppercase mb-4 font-weight-bold">Services</h6>
-              <p>
-                <a class="text-white" href="#!">e-Bike Sales</a>
-              </p>
-              <p>
-                <a class="text-white" href="#!">Pedal Bike Sales</a>
-              </p>
-              <p>
-                <a class="text-white" href="rentals.html">Rentals</a>
-              </p>
-              <p>
-                <a class="text-white" href="service.html">Service & Repair</a>
-              </p>
+            <div class="">
+              203 Wisconsin Ave.
+              <br>
+              Oceanside, CA 92054
             </div>
-            <hr class="w-100 clearfix d-md-none">
-            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h6 class="text-uppercase mb-4 font-weight-bold">Brands</h6>
-              <div class="d-flex jusify-content-center">
-                <div class="col-6 pl-0 pr-5">
-                  <p>
-                    <a class="text-white" href="https://www.electrabike.com/" target="_blank">Electra</a>
-                  </p>
-                  <p>
-                    <a class="text-white" href="https://www.ternbicycles.com/us/" target="_blank">TERN</a>
-                  </p>
-                  <p>
-                    <a class="text-white" href="https://www.gazellebikes.com/" target="_blank">Gazelle</a>
-                  </p>
-                  <p>
-                    <a class="text-white" href="https://surlybikes.com/" target="_blank">Surly</a>
-                  </p>
-                </div>
-                <div class="col-6 pl-0 pr-2">
-                  <p>
-                    <a class="text-white" href="https://www.haibikeusa.com/" target="_blank">HaiBike</a>
-                  </p>
-                  <p>
-                    <a class="text-white" href="https://www.raleighusa.com/" target="_blank">Raleigh</a>
-                  </p>
-                  <p>
-                    <a class="text-white" href="https://www.izipelectric.com/" target="_blank">iZip</a>
-                  </p>
-                  <p>
-                    <a class="text-white" href="https://civiacycles.com/" target="_blank">Civia</a>
-                  </p>
-                </div>
-              </div>
+            <div>
+              <a class="" href="tel:14422668137">(442) 266-8137</a>
             </div>
-            <hr class="w-100 clearfix d-md-none">
+            <br>
+            <div>
+              Hours
+              <br>
+              10:00am to 6:00pm | 7 Days a week
+            </div>
           </div>
-          <div class="row d-flex justify-content-center">
-            <p class="text-center">
-              Copyright &copy; <span id="year"></span> Mostly e-Bikes
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-none">
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Services</h6>
+            <p>
+              <a class="" href="#!">e-Bike Sales</a>
+            </p>
+            <p>
+              <a class="" href="#!">Pedal Bike Sales</a>
+            </p>
+            <p>
+              <a class="" href="rentals.html">Rentals</a>
+            </p>
+            <p>
+              <a class="" href="service.html">Service & Repair</a>
             </p>
           </div>
+          <hr class="w-100 clearfix d-md-none">
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Brands</h6>
+            <div class="d-flex jusify-content-center">
+              <div class="col-6 pl-0 pr-5">
+                <p>
+                  <a class="" href="https://www.electrabike.com/" target="_blank">Electra</a>
+                </p>
+                <p>
+                  <a class="" href="https://www.ternbicycles.com/us/" target="_blank">TERN</a>
+                </p>
+                <p>
+                  <a class="" href="https://www.gazellebikes.com/" target="_blank">Gazelle</a>
+                </p>
+                <p>
+                  <a class="" href="https://surlybikes.com/" target="_blank">Surly</a>
+                </p>
+              </div>
+              <div class="col-6 pl-0 pr-2">
+                <p>
+                  <a class="" href="https://www.haibikeusa.com/" target="_blank">HaiBike</a>
+                </p>
+                <p>
+                  <a class="" href="https://www.raleighusa.com/" target="_blank">Raleigh</a>
+                </p>
+                <p>
+                  <a class="" href="https://www.izipelectric.com/" target="_blank">iZip</a>
+                </p>
+                <p>
+                  <a class="" href="https://civiacycles.com/" target="_blank">Civia</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr class="w-100 clearfix d-md-none">
+        </div>
+        <div class="row d-flex justify-content-center">
+          <p class="text-center">
+            Copyright &copy; <span id="year"></span> Mostly e-Bikes
+          </p>
         </div>
       </div>
     </section>
   </footer>
-
 
 
 
