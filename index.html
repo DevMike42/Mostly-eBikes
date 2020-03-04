@@ -63,21 +63,10 @@
         <li data-target="#showcaseCarousel" data-slide-to="3"></li>
       </ol>
       <div class="carousel-inner">
-        <div id="showcase-item-1" class="carousel-item showcase-img active">
-          <img class="d-block img-fluid" src="./assets/img/showcase-1.jpg" alt="showcase-1">
-        </div>
-        <div id="showcase-item-2" class="carousel-item showcase-img">
-          <img class="d-block img-fluid" src="./assets/img/showcase-2.jpg" alt="showcase-1">
-        </div>
-        <div id="showcase-item-3" class="carousel-item showcase-img">
-          <img class="d-block img-fluid" src="./assets/img/showcase-3.jpg" alt="showcase-1">
-        </div>
-        <div class="carousel-item showcase-img">
-          <img id="showcase-img-4" class="showcase-img-4 d-block img-fluid" src="./assets/img/showcase-4.jpg"
-            alt="showcase-1">
-          <!-- <img id="showcase-img-4-mobile" class="showcase-img-4-mobile d-block img-fluid"
-            src="./assets/img/showcase-4-mobile.jpg" alt="showcase-1"> -->
-        </div>
+        <div class="carousel-item showcase-img active" id="showcase-item-1"></div>
+        <div class="carousel-item showcase-img" id="showcase-item-2"></div>
+        <div class="carousel-item showcase-img" id="showcase-item-3"></div>
+        <div class="carousel-item showcase-img" id="showcase-item-4"></div>
       </div>
       <a href="#showcaseCarousel" class="carousel-control-prev" data-slide="prev">
         <span class="carousel-control-prev-icon"></span>
@@ -88,16 +77,17 @@
     </div>
   </section>
 
+  <!-- BANNER (LOGO-MAIN) -->
   <section id="logo-banner-main" class="bg-light">
-    <div class="row">
-      <div class="col-md-6 m-auto text-center p-4">
-        <img id="logo-main" class="img-fluid w-75" src="./assets/img/logo.png" alt="logo">
+    <div id="logo-banner-content" class="d-flex align-items-center">
+      <div class="w-100 text-center">
+        <img id="logo-main" class="img-fluid m-auto" src="./assets/img/logo.png" alt="logo">
         <p class="lead font-italic text-dark">North County San Diego's premier electric bikeshop</p>
       </div>
     </div>
   </section>
 
-  <!-- BANNER HEADING (HOME) -->
+  <!-- BANNER (HEADING-HOME) -->
   <section class="banner-heading text-white">
     <div class="color-overlay d-flex align-items-center">
       <div class="container">
@@ -274,8 +264,8 @@
         <h1 class="pb-2">What exactly is an e-Bike?</h1>
         <div id="ebike-questions" class="pl-5">
           <h4 class="p-1">How do they work?</h4>
-          <h4 class="p-1">How far can i ride?</h4>
-          <h4 class="p-1">What kind of e-Bike do i need?</h4>
+          <h4 class="p-1">How far can I ride?</h4>
+          <h4 class="p-1">What kind of e-Bike do I need?</h4>
           <h4 class="p-1">Can I get a workout on an e-Bike?</h4>
           <a href="#" class="btn btn-lg btn-main-color mt-3">Read More</a>
         </div>
@@ -366,12 +356,12 @@
 
 
   <!-- FOOTER -->
-  <footer id="footer-main">
+  <footer id="footer-main" class="bg-light">
     <section id="footer-content" class="bg-light border-top border-secondary page-footer font-small mdb-color pt-4">
       <div class="container text-center text-md-left">
         <div class="row text-center text-md-left mt-3 pb-3">
           <!-- Grid column -->
-          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-2">
             <div class="pb-2">
               <img id="logo-footer" src="./assets/img/logo.png" alt="logo">
             </div>
@@ -380,14 +370,14 @@
               <br>
               Oceanside, CA 92054
             </div>
-            <div>
+            <div class="mb-2">
               <a class="" href="tel:14422668137">(442) 266-8137</a>
             </div>
-            <br>
+            <div class="mb-2">
+              <a href="mailto:mostlyebike@gmail.com">mostlyebikes@gmail.com</a>
+            </div>
             <div>
-              Hours
-              <br>
-              10:00am to 6:00pm | 7 Days a week
+              Open 10:00am to 6:00pm Everyday
             </div>
           </div>
           <!-- Grid column -->
