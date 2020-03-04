@@ -8,13 +8,21 @@
 /* ================================== */
 /* SHOWCASE */
 
+#logo-banner-main {
+  height: 25vh;
+}
+
+#logo-banner-content {
+  height: 25vh;
+}
+
+#logo-main {
+  width: 30%;
+}
+
 #showcase {
   height: 65vh;
   width: 100%;
-}
-
-#logo-banner-main {
-  height: 25vh;
 }
 
 #showcase .showcase-img {
@@ -194,6 +202,14 @@
 /* LANDSCAPE PHONES */
 
 @media (max-height: 580px) {
+  #logo-banner-main {
+    height: 40vh;
+  }
+
+  #logo-banner-content {
+    height: 40vh;
+  }
+
   #showcase {
     height: 85vh;
     /* width: 100%; */
@@ -314,7 +330,7 @@
   }
 
   #footer-content {
-    height: 100vh;
+    height: 100%;
   }
 
   #footer-col-middle {
