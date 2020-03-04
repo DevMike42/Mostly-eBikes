@@ -18,8 +18,30 @@
 }
 
 #showcase .showcase-img {
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 65vh;
   width: 100%;
+}
+
+#showcase #showcase-item-1 {
+  background: url('../img/showcase-1.jpg');
+  background-position: center;
+}
+
+#showcase #showcase-item-2 {
+  background: url('../img/showcase-2.jpg');
+  background-position: center;
+}
+
+#showcase #showcase-item-3 {
+  background: url('../img/showcase-3.jpg');
+  background-position: center;
+}
+
+#showcase #showcase-item-4 {
+  background: url('../img/showcase-4.jpg');
+  background-position: center;
 }
 
 /* ================================== */
@@ -172,6 +194,38 @@
 /* LANDSCAPE PHONES */
 
 @media (max-height: 580px) {
+  #showcase {
+    height: 85vh;
+    /* width: 100%; */
+  }
+
+  #showcase .showcase-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 85vh;
+    width: 100%;
+  }
+
+  #showcase #showcase-item-1 {
+    background: url('../img/showcase-1-landscape.jpg');
+    background-position: center;
+  }
+
+  #showcase #showcase-item-2 {
+    background: url('../img/showcase-2-landscape.jpg');
+    background-position: center;
+  }
+
+  #showcase #showcase-item-3 {
+    background: url('../img/showcase-3-landscape.jpg');
+    background-position: center;
+  }
+
+  #showcase #showcase-item-4 {
+    background: url('../img/showcase-4-landscape.jpg');
+    background-position: center;
+  }
+
   .banner-heading .banner-content h1 {
     font-size: 1.5rem !important;
   }

@@ -23,9 +23,24 @@
     font-size: 1.8rem;
   }
 
-  #showcase,
-  #showcase .showcase-img {
-    height: 100%;
+  #showcase #showcase-item-1 {
+    background: url('../img/showcase-1-mobile.jpg');
+    background-position: center;
+  }
+
+  #showcase #showcase-item-2 {
+    background: url('../img/showcase-2-mobile.jpg');
+    background-position: center;
+  }
+
+  #showcase #showcase-item-3 {
+    background: url('../img/showcase-3-mobile.jpg');
+    background-position: center;
+  }
+
+  #showcase #showcase-item-4 {
+    background: url('../img/showcase-4-mobile.jpg');
+    background-position: center;
   }
 
   .banner-heading {
