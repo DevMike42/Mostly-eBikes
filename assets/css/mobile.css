@@ -65,11 +65,11 @@
   #rentals-right,
   #service-left,
   #service-right {
-    height: 60vh;
+    height: 70vh;
   }
 
   #sales-right .sales-right-content {
-    height: 60vh;
+    height: 70vh;
   }
 
   #sales-left .sales-left-content {
@@ -100,7 +100,7 @@
 
   .rentals-left-content {
     padding: 0.5rem !important;
-    height: 60vh;
+    height: 70vh;
   }
 
   #rentals-left .rentals-left-content h1 {
@@ -124,7 +124,7 @@
     background: url('../img/rentals-mobile.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 60vh;
+    height: 70vh;
     width: 100%;
   }
 
@@ -149,7 +149,7 @@
   }
 
   #service-right .service-right-content {
-    height: 60vh;
+    height: 70vh;
   }
 
   #service-right .box-icon {
@@ -203,5 +203,32 @@
 
   #footer-content {
     height: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  #sales-left,
+  #sales-right,
+  #rentals-left,
+  #rentals-right,
+  #service-left,
+  #service-right {
+    height: 95vh;
+  }
+
+  #sales-right .sales-right-content {
+    height: 95vh;
+  }
+
+  .rentals-left-content {
+    height: 95vh;
+  }
+
+  #rentals-right #img-rentals {
+    height: 95vh;
+  }
+
+  #service-right .service-right-content {
+    height: 95vh;
   }
 }
