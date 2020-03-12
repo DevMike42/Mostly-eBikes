@@ -56,15 +56,15 @@
     height: 70vh;
   }
 
-  #sales-right .sales-right-content {
-    height: 70vh;
+  #sales-right #sales-right-content {
+    height: 100%;
   }
 
-  #sales-left .sales-left-content {
+  #sales-left #sales-left-content {
     padding: 0.5rem !important;
   }
 
-  #sales-left .sales-left-content h1 {
+  #sales-left #sales-left-content h1 {
     font-size: 2.5rem;
   }
 
@@ -82,28 +82,28 @@
     width: 100%;
   }
 
-  #sales-right .sales-right-content {
-    font-size: 1rem;
+  #sales-right #sales-right-content {
+    /* font-size: 1rem; */
   }
 
-  .rentals-left-content {
+  #rentals-left-content {
     padding: 0.5rem !important;
     height: 70vh;
   }
 
-  #rentals-left .rentals-left-content h1 {
+  #rentals-left #rentals-left-content h1 {
     font-size: 2rem;
   }
 
-  #rentals-left .rentals-left-content h2 {
+  #rentals-left #rentals-left-content h2 {
     font-size: 1.5rem;
   }
 
-  #rentals-left .rentals-left-content h4 {
+  #rentals-left #rentals-left-content h4 {
     font-size: 1rem;
   }
 
-  #rentals-right .rentals-right-content {
+  #rentals-right #rentals-right-content {
     padding: 0.75rem !important;
   }
 
@@ -116,11 +116,11 @@
     width: 100%;
   }
 
-  #rentals-right .rentals-right-content h1 {
+  #rentals-right #rentals-right-content h1 {
     font-size: 2.5rem;
   }
 
-  #rentals-right .rentals-right-content p {
+  #rentals-right #rentals-right-content p {
     font-size: 1.5rem;
   }
 
@@ -204,11 +204,11 @@
     height: 95vh;
   }
 
-  #sales-right .sales-right-content {
-    height: 95vh;
+  #sales-right #sales-right-content {
+    /* height: 95vh; */
   }
 
-  .rentals-left-content {
+  #rentals-left-content {
     height: 95vh;
   }
 
