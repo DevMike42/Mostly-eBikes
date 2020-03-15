@@ -40,6 +40,11 @@
   background-position: center;
 }
 
+#showcase #showcase-item-5 {
+  background: url('../img/showcase-5.jpg');
+  background-position: center;
+}
+
 /* ================================== */
 /* BANNER (LOGO-MAIN) */
 
@@ -185,6 +190,11 @@
     background-position: center;
   }
 
+  #showcase #showcase-item-5 {
+    background: url('../img/showcase-5-landscape.jpg');
+    background-position: center;
+  }
+
   #sales-left,
   #sales-right,
   #rentals-left,
@@ -238,5 +248,27 @@
 
   #footer-col-middle {
     min-width: 25%;
+  }
+}
+
+@media (min-width: 1441px) {
+  #showcase #showcase-item-2 {
+    background: url('../img/showcase-2-xxl.jpg');
+    background-position: center;
+  }
+
+  #showcase #showcase-item-3 {
+    background: url('../img/showcase-3-xxl.jpg');
+    background-position: center;
+  }
+
+  #showcase #showcase-item-4 {
+    background: url('../img/showcase-4-xxl.jpg');
+    background-position: center;
+  }
+
+  #showcase #showcase-item-5 {
+    background: url('../img/showcase-5-xxl.jpg');
+    background-position: center;
   }
 }

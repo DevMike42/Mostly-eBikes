@@ -1,3 +1,29 @@
+#showcase #showcase-item-1 {
+  background: url('../img/showcase-1-tablet.jpg');
+  background-position: center;
+}
+
+#showcase #showcase-item-2 {
+  background-size: unset;
+  background: url('../img/showcase-2-tablet.jpg');
+  background-position: center;
+}
+
+#showcase #showcase-item-3 {
+  background: url('../img/showcase-3-tablet.jpg');
+  background-position: center;
+}
+
+#showcase #showcase-item-4 {
+  background: url('../img/showcase-4-tablet.jpg');
+  background-position: center;
+}
+
+#showcase #showcase-item-5 {
+  background: url('../img/showcase-5-tablet.jpg');
+  background-position: center;
+}
+
 @media (max-width: 500px) {
   #nav-main .logo {
     font-size: 1.8rem;
@@ -13,6 +39,7 @@
   }
 
   #showcase #showcase-item-2 {
+    background-size: unset;
     background: url('../img/showcase-2-mobile.jpg');
     background-position: center;
   }
@@ -24,6 +51,11 @@
 
   #showcase #showcase-item-4 {
     background: url('../img/showcase-4-mobile.jpg');
+    background-position: center;
+  }
+
+  #showcase #showcase-item-5 {
+    background: url('../img/showcase-5-mobile.jpg');
     background-position: center;
   }
 
