@@ -78,19 +78,6 @@
   width: 100%;
 }
 
-#sales-left #sales-left-content h1 {
-  /* font-size: 3.5rem; */
-}
-
-#sales-left #sales-left-content p {
-  /* font-size: 1.5rem; */
-}
-
-#sales-right #sales-right-content {
-  /* height: 100%; */
-  /* font-size: 1.5rem; */
-}
-
 /* ================================== */
 /* Rentals */
 #rentals-right #img-rentals {
@@ -100,14 +87,6 @@
   background-repeat: no-repeat;
   height: 70vh;
   width: 100%;
-}
-
-#rentals-right #rentals-right-content h1 {
-  /* font-size: 3.5rem; */
-}
-
-#rentals-right #rentals-right-content p {
-  /* font-size: 2rem; */
 }
 
 /* ================================== */
@@ -120,19 +99,6 @@
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
-}
-
-#service-left #service-left-content h1 {
-  font-size: 3rem;
-}
-
-#service-left #service-left-content p {
-  font-size: 2rem;
-}
-
-#service-right #service-right-content {
-  height: 100%;
-  font-size: 1.5rem;
 }
 
 /* ================================== */
@@ -228,16 +194,26 @@
     height: 100vh;
   }
 
-  #sales-left #sales-left-content h1 {
-    font-size: 2rem;
+  #sales-left-content h1,
+  #sales-right-content h1,
+  #rentals-right-content h1,
+  #service-left-content h1,
+  #service-right-content h1 {
+    font-size: 1.5rem !important;
+  }
+
+  #sales-right-content h4,
+  #service-right-content h4,
+  #rentals-left-content h4 {
+    font-size: 1rem !important;
+  }
+
+  #sales-right-content h3 {
+    font-size: 1rem !important;
   }
 
   #rentals-left-content h2 {
     font-size: 1.5rem !important;
-  }
-
-  #rentals-left-content h4 {
-    font-size: 1rem !important;
   }
 
   #rentals-left-content hr {
@@ -248,24 +224,8 @@
     height: 100% !important;
   }
 
-  #service-left-content h1 {
-    font-size: 1.5rem !important;
-  }
-
-  #service-right-content {
-    height: 100% !important;
-  }
-
   .box-icon {
     font-size: 2.5rem;
-  }
-
-  .box-heading {
-    font-size: 2rem !important;
-  }
-
-  .box-sub-heading {
-    font-size: 1rem !important;
   }
 
   #about-ebikes {
