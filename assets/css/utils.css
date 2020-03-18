@@ -62,3 +62,7 @@ ul li {
 .box-icon {
   font-size: 5rem;
 }
+
+#redirect-content {
+  height: 90vh;
+}
