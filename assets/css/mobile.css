@@ -1,3 +1,6 @@
+/* ================================== */
+/* TABLETS */
+
 #showcase #showcase-item-1 {
   background: url('../img/showcase-1-tablet.jpg');
   background-position: center;
@@ -101,6 +104,10 @@
 
   #sales-right-content h3 {
     font-size: 1rem !important;
+  }
+
+  #sales-right-content img {
+    height: 2.75rem;
   }
 
   #rentals-left-content h2 {
