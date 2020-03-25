@@ -182,6 +182,10 @@
     font-size: 1.3rem;
   }
 
+  .box-icon {
+    display: none;
+  }
+
   #sales-left #img-sales {
     position: relative;
     background: url('../img/sales-mobile.jpg');
