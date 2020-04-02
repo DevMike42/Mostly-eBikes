@@ -82,8 +82,9 @@
               </div>
               <br>
               <div class="d-flex justify-content-center">
-                <a href="https://docs.google.com/forms/d/1IzkSVUzE79sDNXpWrvjC123AfUy55UNz_vKP6yyvM8w/viewform?edit_requested=true"
-                  class="btn btn-lg btn-block btn-main-color" target="_blank">Make A Reservation</a>
+                <button class="btn btn-lg btn-block btn-main-color" data-toggle="modal" data-target="#rentalModal">Make
+                  A
+                  Reservation</button>
               </div>
             </div>
           </div>
@@ -110,8 +111,9 @@
               </div>
               <br>
               <div class="d-flex justify-content-center">
-                <a href="https://docs.google.com/forms/d/1IzkSVUzE79sDNXpWrvjC123AfUy55UNz_vKP6yyvM8w/viewform?edit_requested=true"
-                  class="btn btn-lg btn-block btn-main-color" target="_blank">Make A Reservation</a>
+                <button class="btn btn-lg btn-block btn-main-color" data-toggle="modal" data-target="#rentalModal">Make
+                  A
+                  Reservation</button>
               </div>
             </div>
           </div>
@@ -138,8 +140,9 @@
               </div>
               <br>
               <div class="d-flex justify-content-center">
-                <a href="https://docs.google.com/forms/d/1IzkSVUzE79sDNXpWrvjC123AfUy55UNz_vKP6yyvM8w/viewform?edit_requested=true"
-                  class="btn btn-lg btn-block btn-main-color" target="_blank">Make A Reservation</a>
+                <button class="btn btn-lg btn-block btn-main-color" data-toggle="modal" data-target="#rentalModal">Make
+                  A
+                  Reservation</button>
               </div>
             </div>
           </div>
@@ -153,6 +156,83 @@
       </div>
     </div>
   </section>
+
+  <!-- RENTAL RESERVATION MODAL -->
+  <div class="modal fade" id="rentalModal" tabindex="-1" role="dialog" aria-labelledby="rentalModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-main-color text-white">
+          <h3 class="modal-title" id="rentalModalLabel">Bike Rental Form</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span class="text-white" aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label class="mb-0" for="name">First & Last Name</label>
+              <input class="form-control" type="text" id="name" placeholder="Enter name">
+            </div>
+            <div class="form-group">
+              <label class="mb-0" for="email">Email Address</label>
+              <input class="form-control" type="email" id="email" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label class="mb-0" for="phone">Cell Phone Number</label>
+              <input class="form-control" type="text" id="phone" placeholder="Enter phone number">
+            </div>
+            <div class="row">
+              <div class="form-group col-6">
+                <label class="mb-0" for="pick-up-date">Pick Up Date</label>
+                <input class="form-control" type="date" value="YYYY-MM-DD" id="pick-up-date">
+              </div>
+              <div class="form-group col-6">
+                <label class="mb-0" for="pick-up-time">Pick Up Time</label>
+                <input class="form-control" type="time" value="10:00:00" id="pick-up-time">
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col-6">
+                <label class="mb-0" for="drop-off-date">Drop Off Date</label>
+                <input class="form-control" type="date" value="YYYY-MM-DD" id="drop-off-date">
+              </div>
+              <div class="form-group col-6">
+                <label class="mb-0" for="drop-off-time">Drop Off Time</label>
+                <input class="form-control" type="time" value="10:00:00" id="drop-off-time">
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col-6">
+                <label class="mb-0" for="bike-type">Electric / Non-Electric</label>
+                <select class="custom-select">
+                  <option value="1">Electric</option>
+                  <option value="2">Non-Electric</option>
+                </select>
+              </div>
+              <div class="form-group col-6">
+                <label class="mb-0" for="how-many">How many bikes?</label>
+                <input type="number" class="form-control" value="1" id="how-many">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="rider-height" class="mb-0">Height of rider</label>
+              <input class="form-control" type="text" id="rider-height">
+            </div>
+            <div class="form-group">
+              <label for="misc-info" class="mb-0">Misc. Info.</label>
+              <textarea class="form-control" id="misc-info" rows="3"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-main-color">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 
 
 
