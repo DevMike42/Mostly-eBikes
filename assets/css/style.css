@@ -90,7 +90,7 @@
   background: url('../img/rentals.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 70vh;
+  height: 100%;
   width: 100%;
 }
 
@@ -131,14 +131,6 @@
 
 .rating i {
   text-shadow: 0 0 3px #000;
-}
-
-.testimonial-body a.collapsed:after {
-  content: '... More';
-}
-
-.testimonial-body a:not(.collapsed):after {
-  content: '... More';
 }
 
 /* ================================== */

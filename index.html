@@ -190,35 +190,37 @@
     </div>
     <div id="rentals-left" class="col-xs-12 col-md-6 p-0 d-flex align-items-center bg-main-color text-white">
       <div id="rentals-left-content" class="m-auto w-75 text-center">
-        <i class="box-icon fas fa-handshake fa-3x"></i>
+        <!-- <i class="box-icon fas fa-handshake fa-3x"></i> -->
         <h1 class="box-heading">Rental Rates</h1>
-        <hr>
         <h2>e-Bike</h2>
-        <div class="d-flex justify-content-between">
-          <h4>2 Hours</h4>
-          <h4>$45</h4>
+        <div class="rental-rates-border border p-3 mb-2">
+          <div class="d-flex justify-content-between">
+            <h4>2 Hours</h4>
+            <h4>$45</h4>
+          </div>
+          <div class="d-flex justify-content-between">
+            <h4>1 Day (24 Hours)</h4>
+            <h4>$70</h4>
+          </div>
+          <div class="d-flex justify-content-between">
+            <h4>1 Week</h4>
+            <h4>$295</h4>
+          </div>
         </div>
-        <div class="d-flex justify-content-between">
-          <h4>1 Day (24 Hours)</h4>
-          <h4>$70</h4>
-        </div>
-        <div class="d-flex justify-content-between">
-          <h4>1 Week</h4>
-          <h4>$295</h4>
-        </div>
-        <hr>
         <h2>Non-Electric Bike</h2>
-        <div class="d-flex justify-content-between">
-          <h4>2 Hours</h4>
-          <h4>$30</h4>
-        </div>
-        <div class="d-flex justify-content-between">
-          <h4>1 Day (24 Hours)</h4>
-          <h4>$40</h4>
-        </div>
-        <div class="d-flex justify-content-between">
-          <h4>1 Week</h4>
-          <h4>$185</h4>
+        <div class="rental-rates-border border p-3">
+          <div class="d-flex justify-content-between">
+            <h4>2 Hours</h4>
+            <h4>$30</h4>
+          </div>
+          <div class="d-flex justify-content-between">
+            <h4>1 Day (24 Hours)</h4>
+            <h4>$40</h4>
+          </div>
+          <div class="d-flex justify-content-between">
+            <h4>1 Week</h4>
+            <h4>$185</h4>
+          </div>
         </div>
       </div>
     </div>
@@ -296,9 +298,18 @@
             <div class="testimonial-body">
               <p class="m-0 p-0">Great shop, excellent products and large selection of bikes. George and his staff are
                 both knowledgeable and very personable. From the time we walked in till we left, George made us feel
-                like his number one customer. Spending time with us explaining the eBike world. We never felt pressured
-                to buy. We have since purchased our first Electra bike and gear and plan to buy the second one when my
-                color comes on.</p>
+                like his number one customer. Spending time with us explaining the eBike world. We <span
+                  class="collapse m-0 p-0" id="testimonial-1">
+                  never felt pressured
+                  to buy. We have since purchased our first Electra bike and gear and plan to buy the second one when my
+                  color comes on.
+                </span>
+              </p>
+              <!-- </div> -->
+              <div class="d-flex align-items-right">
+                <a href="#testimonial-1" class="collapse-btn ml-auto btn btn-outline-secondary btn-sml" role="button"
+                  data-toggle="collapse" aria-expanded="false" aria-controls="testimonial-1">Expand</a>
+              </div>
             </div>
           </div>
         </div>
@@ -315,19 +326,28 @@
               <i class="fas fa-star pl-2"></i>
             </div>
             <div class="testimonial-body">
-              <p class="m-0 p-0">I recently bought two Rad Mini e-bikes to celebrate the retirements of my wife and I. I
+              <p> class="m-0 p-0">I recently bought two Rad Mini e-bikes to celebrate the retirements of my wife and I.
+                I
                 asked the crew at Rad Bikes in Seattle, from whom I ordered the bikes, for a recommendation for a bike
-                shop close to me. They recommended Mostly E-Bikes in Oceanside. On both occasions when I had each bike
-                assembled at Mostly E-Bikes, I was incredibly impressed with the quality of the customer service I
-                received. George is a great guy with a calm and friendly presence who had a genuine interest in my
-                satisfaction of the services I received from his company. His communication was consistently prompt
-                and
-                informative. He had each bike ready within the time frame he indicated. He also helped me get a
-                replacement rotor for my front brake. His staff is also great and has extensive experience! On the two
-                occasions I was at his shop, George provided great service and was impressively friendly and
-                personable.
-                He definitely gets a 5-star rating and my endorsement! If you like great customer service - go see
-                George at Mostly E-Bikes in Oceanside !!</p>
+                shop close to me. They recommended Mostly E-Bikes in Oceanside. On both occasions
+                <span class="collapse m-0 p-0" id="testimonial-2">
+                  when I had each bike
+                  assembled at Mostly E-Bikes, I was incredibly impressed with the quality of the customer service I
+                  received. George is a great guy with a calm and friendly presence who had a genuine interest in my
+                  satisfaction of the services I received from his company. His communication was consistently prompt
+                  and
+                  informative. He had each bike ready within the time frame he indicated. He also helped me get a
+                  replacement rotor for my front brake. His staff is also great and has extensive experience! On the two
+                  occasions I was at his shop, George provided great service and was impressively friendly and
+                  personable.
+                  He definitely gets a 5-star rating and my endorsement! If you like great customer service - go see
+                  George at Mostly E-Bikes in Oceanside !!
+                </span>
+              </p>
+              <div class="d-flex align-items-right">
+                <a href="#testimonial-2" class="collapse-btn ml-auto btn btn-outline-secondary btn-sml" role="button"
+                  data-toggle="collapse" aria-expanded="false" aria-controls="testimonial-2">Expand</a>
+              </div>
             </div>
           </div>
         </div>
@@ -383,24 +403,32 @@
             <div class="testimonial-body">
               <p class="m-0 p-0">I arrived to Mostly E-Bikes about a quarter before they closed, needing a tube/tire on
                 my semi-new Trek road bike. George dropped what he was doing and immediately gave me and the bike his
-                full attention. However, he didn’t just patch it up and hand it back - he inquired about my uses for it,
-                and thereafter informed me about its potential and its performance. The bike had the original super
-                thin
-                racing/road tires. If I was gonna move around on it, this wasn’t going to be practical, let alone
-                comfortable. He then made some suggestions on how to make some basic changes and keep them
-                inexpensive.
-                The bike was patched. I rode it around for a few days, experimenting, and after a few visits to
-                George’s
-                shop and gaining inspiration by his own bikes, I decided to convert this Trek road bike into a
-                commuter!
-                He gave me many options and suggestions, educating me on tire types, their sizes, rims, calibration,
-                break pads, drive-train, gears, seating, and pedal strokes, etc. I gotta say, although he kept me
-                within
-                my budget, there’s no price on the attention and pride he has put into this bike. His service was
-                superior, professional, and suggestions totally accurate! To this day, whenever I have questions, he
-                responds timely even through email! This bike shop is the real deal and have recommended him to
-                friends
-                and family</p>
+                full attention. However, he didn’t just patch it up and hand it back - he inquired
+                <span class="collapse m-0 p-0" id="testimonial-5">
+                  about my uses for it,
+                  and thereafter informed me about its potential and its performance. The bike had the original super
+                  thin
+                  racing/road tires. If I was gonna move around on it, this wasn’t going to be practical, let alone
+                  comfortable. He then made some suggestions on how to make some basic changes and keep them
+                  inexpensive.
+                  The bike was patched. I rode it around for a few days, experimenting, and after a few visits to
+                  George’s
+                  shop and gaining inspiration by his own bikes, I decided to convert this Trek road bike into a
+                  commuter!
+                  He gave me many options and suggestions, educating me on tire types, their sizes, rims, calibration,
+                  break pads, drive-train, gears, seating, and pedal strokes, etc. I gotta say, although he kept me
+                  within
+                  my budget, there’s no price on the attention and pride he has put into this bike. His service was
+                  superior, professional, and suggestions totally accurate! To this day, whenever I have questions, he
+                  responds timely even through email! This bike shop is the real deal and have recommended him to
+                  friends
+                  and family
+                </span>
+              </p>
+              <div class="d-flex align-items-right">
+                <a href="#testimonial-5" class="collapse-btn ml-auto btn btn-outline-secondary btn-sml" role="button"
+                  data-toggle="collapse" aria-expanded="false" aria-controls="testimonial-5">Expand</a>
+              </div>
             </div>
           </div>
         </div>
