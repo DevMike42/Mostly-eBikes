@@ -11,4 +11,4 @@ A professional static website for a local electric bicycle shop in Oceanside, CA
 
 
 ## Deployed at
-www.mostlyelectricbikes.com
+www.mostlye-bikes.com
