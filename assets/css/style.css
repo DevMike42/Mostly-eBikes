@@ -2,23 +2,11 @@
 /* NAVBAR */
 
 #logo-nav img {
-  height: 5vh;
+  height: 4rem;
 }
 
 /* ================================== */
-/* SHOWCASE */
-
-#logo-banner-main {
-  height: 25vh;
-}
-
-#logo-banner-content {
-  height: 25vh;
-}
-
-#logo-main {
-  width: 30%;
-}
+/* SHOWCASE SLIDER */
 
 #showcase {
   height: 65vh;
@@ -52,6 +40,26 @@
   background-position: center;
 }
 
+#showcase #showcase-item-5 {
+  background: url('../img/showcase-5.jpg');
+  background-position: center;
+}
+
+/* ================================== */
+/* BANNER (LOGO-MAIN) */
+
+#logo-banner-main {
+  height: 25vh;
+}
+
+#logo-banner-content {
+  height: 100%;
+}
+
+#logo-main {
+  width: 30%;
+}
+
 /* ================================== */
 /* Sales */
 
@@ -75,41 +83,15 @@
   width: 100%;
 }
 
-#sales-left .sales-left-content h1 {
-  font-size: 3.5rem;
-}
-
-#sales-left .sales-left-content p {
-  font-size: 1.5rem;
-}
-
-#sales-right .sales-right-content {
-  height: 70vh;
-  font-size: 1.5rem;
-}
-
 /* ================================== */
 /* Rentals */
-
-#rentals-left {
-  /* height: 70vh; */
-}
-
 #rentals-right #img-rentals {
   position: relative;
   background: url('../img/rentals.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 70vh;
+  height: 100%;
   width: 100%;
-}
-
-#rentals-right .rentals-right-content h1 {
-  font-size: 3.5rem;
-}
-
-#rentals-right .rentals-right-content p {
-  font-size: 2rem;
 }
 
 /* ================================== */
@@ -124,19 +106,6 @@
   width: 100%;
 }
 
-#service-left .service-left-content h1 {
-  font-size: 3rem;
-}
-
-#service-left .service-left-content p {
-  font-size: 2rem;
-}
-
-#service-right .service-right-content {
-  height: 70vh;
-  font-size: 1.5rem;
-}
-
 /* ================================== */
 /* ABOUT e-BIKES */
 
@@ -147,10 +116,6 @@
   background-repeat: no-repeat;
   background-position: center;
   height: 50vh;
-}
-
-.row-hl {
-  height: 100%;
 }
 
 /* ================================== */
@@ -190,140 +155,26 @@
 }
 
 /* ================================== */
-/* RENTALS PAGE */
+/* XL Devices (1080p) */
 
-/* ================================== */
-/* LANDSCAPE PHONES */
-
-@media (max-height: 580px) {
-  #logo-banner-main {
-    height: 40vh;
-  }
-
-  #logo-banner-content {
-    height: 40vh;
-  }
-
-  #showcase {
-    height: 85vh;
-    /* width: 100%; */
-  }
-
-  #showcase .showcase-img {
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 85vh;
-    width: 100%;
-  }
-
-  #showcase #showcase-item-1 {
-    background: url('../img/showcase-1-landscape.jpg');
-    background-position: center;
-  }
-
+@media (min-width: 1441px) {
   #showcase #showcase-item-2 {
-    background: url('../img/showcase-2-landscape.jpg');
+    background: url('../img/showcase-2-xxl.jpg');
     background-position: center;
   }
 
   #showcase #showcase-item-3 {
-    background: url('../img/showcase-3-landscape.jpg');
+    background: url('../img/showcase-3-xxl.jpg');
     background-position: center;
   }
 
   #showcase #showcase-item-4 {
-    background: url('../img/showcase-4-landscape.jpg');
+    background: url('../img/showcase-4-xxl.jpg');
     background-position: center;
   }
 
-  #sales-left,
-  #sales-right,
-  #rentals-left,
-  #rentals-right,
-  #service-left,
-  #service-right {
-    height: 100vh;
-  }
-
-  #sales-left .sales-left-content h1 {
-    font-size: 2rem;
-  }
-
-  .sales-right-content {
-    height: 100% !important;
-  }
-
-  .rentals-left-content {
-    padding-left: 10px !important;
-    padding-right: 10px !important;
-  }
-
-  .rentals-left-content h1 {
-    font-size: 2rem !important;
-    margin-bottom: 3px !important;
-  }
-
-  .rentals-left-content h2 {
-    font-size: 1.5rem !important;
-  }
-
-  .rentals-left-content h4 {
-    font-size: 1rem !important;
-  }
-
-  #img-rentals {
-    height: 100% !important;
-  }
-
-  .rentals-right-content h1 {
-    font-size: 1.75rem !important;
-  }
-
-  .rentals-right-content p {
-    font-size: 1.25rem !important;
-  }
-
-  .rentals-right-content a {
-    font-size: 0.75rem !important;
-  }
-
-  .service-left-content h1 {
-    font-size: 1.5rem !important;
-  }
-
-  .service-left-content p {
-    font-size: 1.25rem !important;
-  }
-
-  .service-left-content a {
-    font-size: 0.75rem !important;
-  }
-
-  .service-right-content {
-    height: 100% !important;
-  }
-
-  .box-icon {
-    font-size: 1rem;
-  }
-
-  .box-heading h1 {
-    font-size: 2rem;
-  }
-
-  .box-sub-heading h3 {
-    font-size: 1rem;
-  }
-
-  #about-ebikes {
-    height: 100vh;
-  }
-
-  #footer-content {
-    height: 100%;
-  }
-
-  #footer-col-middle {
-    min-width: 25%;
+  #showcase #showcase-item-5 {
+    background: url('../img/showcase-5-xxl.jpg');
+    background-position: center;
   }
 }

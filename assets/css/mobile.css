@@ -1,13 +1,147 @@
-#footer-logo-banner .footer-banner-content h1 {
-  font-size: 1.5rem;
+/* ================================== */
+/* TABLETS */
+
+#showcase #showcase-item-1 {
+  background: url('../img/showcase-1-tablet.jpg');
+  background-position: center;
 }
 
-#footer-logo-banner .footer-banner-content .hline {
-  width: 2rem;
+#showcase #showcase-item-2 {
+  background-size: unset;
+  background: url('../img/showcase-2-tablet.jpg');
+  background-position: center;
 }
 
-#footer-content {
-  height: 90vh;
+#showcase #showcase-item-3 {
+  background: url('../img/showcase-3-tablet.jpg');
+  background-position: center;
+}
+
+#showcase #showcase-item-4 {
+  background: url('../img/showcase-4-tablet.jpg');
+  background-position: center;
+}
+
+#showcase #showcase-item-5 {
+  background: url('../img/showcase-5-tablet.jpg');
+  background-position: center;
+}
+
+/* ================================== */
+/* LANDSCAPE PHONES */
+
+@media (max-height: 580px) {
+  #logo-banner-main {
+    height: 40vh;
+  }
+
+  #showcase {
+    height: 85vh;
+  }
+
+  #showcase .showcase-img {
+    height: 85vh;
+  }
+
+  #showcase #showcase-item-1 {
+    background: url('../img/showcase-1-landscape.jpg');
+    background-position: center;
+  }
+
+  #showcase #showcase-item-2 {
+    background: url('../img/showcase-2-landscape.jpg');
+    background-position: center;
+  }
+
+  #showcase #showcase-item-3 {
+    background: url('../img/showcase-3-landscape.jpg');
+    background-position: center;
+  }
+
+  #showcase #showcase-item-4 {
+    background: url('../img/showcase-4-landscape.jpg');
+    background-position: center;
+  }
+
+  #showcase #showcase-item-5 {
+    background: url('../img/showcase-5-landscape.jpg');
+    background-position: center;
+  }
+
+  .banner-content h1 {
+    font-size: 1.5rem;
+  }
+
+  #sales-left,
+  #sales-right,
+  #rentals-left,
+  #rentals-right,
+  #service-left,
+  #service-right {
+    height: 100vh;
+  }
+
+  #sales-left-content h1,
+  #sales-right-content h1,
+  #rentals-left-content h1,
+  #rentals-right-content h1,
+  #service-left-content h1,
+  #service-right-content h1 {
+    font-size: 1.5rem !important;
+  }
+
+  #service-right-content h4,
+  #rentals-left-content h4 {
+    font-size: 1rem !important;
+  }
+
+  #sales-right-content h5 {
+    font-size: 0.75rem;
+  }
+
+  #sales-right-content i {
+    display: none !important;
+  }
+
+  #sales-right-content h3 {
+    font-size: 1rem !important;
+  }
+
+  #sales-right-content img {
+    height: 2.75rem;
+  }
+
+  #rentals-left-content h2 {
+    font-size: 1.5rem !important;
+  }
+
+  #rentals-left-content hr {
+    margin-top: 1px;
+  }
+
+  .rental-rates-border {
+    padding: 0.5rem !important;
+  }
+
+  #img-rentals {
+    height: 100% !important;
+  }
+
+  .box-icon {
+    font-size: 2.5rem;
+  }
+
+  #about-ebikes {
+    height: 100vh;
+  }
+
+  #footer-content {
+    height: 100%;
+  }
+
+  #footer-col-middle {
+    min-width: 25%;
+  }
 }
 
 @media (max-width: 500px) {
@@ -25,6 +159,7 @@
   }
 
   #showcase #showcase-item-2 {
+    background-size: unset;
     background: url('../img/showcase-2-mobile.jpg');
     background-position: center;
   }
@@ -39,6 +174,11 @@
     background-position: center;
   }
 
+  #showcase #showcase-item-5 {
+    background: url('../img/showcase-5-mobile.jpg');
+    background-position: center;
+  }
+
   .banner-heading {
     height: 10vh;
   }
@@ -47,29 +187,17 @@
     font-size: 1.3rem;
   }
 
+  .box-icon {
+    display: none;
+  }
+
   #sales-left,
   #sales-right,
   #rentals-left,
   #rentals-right,
   #service-left,
   #service-right {
-    height: 70vh;
-  }
-
-  #sales-right .sales-right-content {
-    height: 70vh;
-  }
-
-  #sales-left .sales-left-content {
-    padding: 0.5rem !important;
-  }
-
-  #sales-left .sales-left-content h1 {
-    font-size: 2.5rem;
-  }
-
-  #sales-left .sales-left-content p {
-    font-size: 1.5rem;
+    height: 80vh;
   }
 
   #sales-left #img-sales {
@@ -82,83 +210,26 @@
     width: 100%;
   }
 
-  #sales-right .sales-right-content {
-    font-size: 1rem;
-  }
-
-  .rentals-left-content {
-    padding: 0.5rem !important;
-    height: 70vh;
-  }
-
-  #rentals-left .rentals-left-content h1 {
-    font-size: 2rem;
-  }
-
-  #rentals-left .rentals-left-content h2 {
-    font-size: 1.5rem;
-  }
-
-  #rentals-left .rentals-left-content h4 {
-    font-size: 1rem;
-  }
-
-  #rentals-right .rentals-right-content {
-    padding: 0.75rem !important;
-  }
-
   #rentals-right #img-rentals {
     position: relative;
     background: url('../img/rentals-mobile.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 70vh;
+    height: 100%;
     width: 100%;
   }
 
-  #rentals-right .rentals-right-content h1 {
-    font-size: 2.5rem;
-  }
-
-  #rentals-right .rentals-right-content p {
-    font-size: 1.5rem;
-  }
-
-  #service-left .service-left-content h1 {
+  #service-left #service-left-content h1 {
     font-size: 2rem;
-  }
-
-  #service-left .service-left-content p {
-    font-size: 1.5rem;
-  }
-
-  .service-left-content {
-    padding: 0.75rem !important;
-  }
-
-  #service-right .service-right-content {
-    height: 70vh;
-  }
-
-  #service-right .box-icon {
-    font-size: 1rem !important;
-  }
-
-  #service-right .box-sub-heading {
-    padding: 0.5rem !important;
-  }
-
-  #service-right .service-right-content h1 {
-    font-size: 2rem !important;
-  }
-
-  #service-right .service-right-content h3 {
-    font-size: 1.25rem !important;
   }
 
   #about-ebikes .about-ebikes-content #ebike-questions h1,
   #about-ebikes .about-ebikes-content #ebike-questions h4 {
     font-size: 1rem;
+  }
+
+  #about-ebikes {
+    height: 70vh;
   }
 
   #about-ebikes .about-ebikes-content {
@@ -191,32 +262,5 @@
 
   #footer-content {
     height: 100%;
-  }
-}
-
-@media (max-width: 320px) {
-  #sales-left,
-  #sales-right,
-  #rentals-left,
-  #rentals-right,
-  #service-left,
-  #service-right {
-    height: 95vh;
-  }
-
-  #sales-right .sales-right-content {
-    height: 95vh;
-  }
-
-  .rentals-left-content {
-    height: 95vh;
-  }
-
-  #rentals-right #img-rentals {
-    height: 95vh;
-  }
-
-  #service-right .service-right-content {
-    height: 95vh;
   }
 }
